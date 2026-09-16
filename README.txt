@@ -1,5 +1,5 @@
-GEJA FURNITURE — KATALOG STATIS V9
-
+GEJA FURNITURE — WEB KATALOG STATIS
+Landing page simpel dengan file berikut:
 - index.html: halaman beranda
 - katalog.html: halaman katalog seluruh produk
 - style.css: tampilan dan responsive
