@@ -220,6 +220,24 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
   .catalog-cta .btn { width:100%; max-width:280px; }
 }
 
+.shopping{background:var(--blue-pale);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.shopping-inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,500px);gap:60px;align-items:center}
+.shopping h2{max-width:600px;margin:0;color:var(--blue);font-size:clamp(30px,4vw,48px);line-height:1.05;font-weight:700}
+.shopping-text{max-width:560px;margin:18px 0 0;color:var(--muted);font-size:14px;line-height:1.8}
+.shopping-actions{display:grid;gap:12px}
+.shopping-button{display:flex;align-items:center;gap:15px;min-height:78px;padding:15px 18px;border-radius:10px;text-decoration:none;color:#fff;box-shadow:0 10px 24px rgba(57,83,108,.12);transition:transform .2s,box-shadow .2s}
+.shopping-button:hover{transform:translateY(-2px);box-shadow:0 14px 28px rgba(57,83,108,.18)}
+.shopping-button:focus-visible{outline:3px solid rgba(85,119,159,.35);outline-offset:3px}
+.shopping-icon{width:35px;height:35px;flex:0 0 35px;object-fit:contain;filter:brightness(0) invert(1)}
+.shopping-button span:not(.shopping-arrow){display:flex;flex-direction:column;gap:3px;min-width:0}
+.shopping-button small{font-size:10px;opacity:.82;letter-spacing:.08em;text-transform:uppercase}
+.shopping-button strong{font-size:15px;font-weight:700}
+.shopping-arrow{margin-left:auto;font-size:22px;line-height:1}
+.shopee-button{background:#ee4d2d}
+.whatsapp-button{background:#198754}
+@media(max-width:900px){.shopping-inner{grid-template-columns:1fr;gap:30px}}
+@media(max-width:620px){.shopping{padding-top:45px;padding-bottom:45px}.shopping-inner{gap:25px}.shopping-text{font-size:13px}.shopping-button{min-height:72px;padding:13px 15px}.shopping-icon{width:31px;height:31px;flex-basis:31px}.shopping-button strong{font-size:13px}}
+
 /* Hero carousel */
 .hero-slides{position:absolute;inset:0}
 .hero-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s ease}
