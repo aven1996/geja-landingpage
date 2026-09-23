@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="Geja Furniture | Furniture Minimalis">
   <meta name="twitter:description" content="Katalog furniture minimalis Geja untuk ruang yang nyaman dan personal.">
   <meta name="twitter:image" content="geja-logo.png">
-  <link rel="icon" type="image/png" href="geja-logo.png">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -85,7 +85,7 @@
       <div class="filters" role="group" aria-label="Filter kategori"><button class="filter active" data-filter="Semua">Semua</button><button class="filter" data-filter="Sofa">Sofa</button><button class="filter" data-filter="Kursi">Kursi</button><button class="filter" data-filter="Meja">Meja</button><button class="filter" data-filter="Storage">Storage</button><button class="filter" data-filter="Kamar Tidur">Kamar Tidur</button><button class="filter" data-filter="Aksesoris">Aksesoris</button></div>
       <div class="toolbar">
         <label class="search-box"><span class="sr-only">Cari produk</span><input id="search" type="search" placeholder="Cari nama, kode, material, warna..." autocomplete="off"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="5.5"></circle><path d="M16 16L21 21"></path></svg></label>
-        <div class="selects"><label><span class="sr-only">Urutkan</span><select id="sort"><option value="featured">Pilihan</option><option value="price-low">Harga terendah</option><option value="price-high">Harga tertinggi</option><option value="name">Nama A–Z</option></select></label><label><span class="sr-only">Rentang harga</span><select id="priceRange"><option value="all">Semua harga</option><option value="under2">Di bawah Rp2 juta</option><option value="2to5">Rp2–5 juta</option><option value="over5">Di atas Rp5 juta</option></select></label></div>
+        <div class="selects"><label><span class="sr-only">Urutkan</span><select id="sort"><option value="default">Pilihan</option><option value="price-low">Harga terendah</option><option value="price-high">Harga tertinggi</option><option value="name">Nama A–Z</option></select></label><label><span class="sr-only">Rentang harga</span><select id="priceRange"><option value="all">Semua harga</option><option value="under2">Di bawah Rp2 juta</option><option value="2to5">Rp2–5 juta</option><option value="over5">Di atas Rp5 juta</option></select></label></div>
         <span id="resultCount" class="result-count" aria-live="polite"></span>
       </div>
       <div class="product-grid" id="productGrid"></div>
@@ -96,7 +96,7 @@
 </main>
   <footer id="kontak"><div class="footer-main"><div><a class="logo footer-logo" href="index.html#home"><img src="geja-logo.png" alt="Geja Furniture"></a><p>Furniture minimalis untuk rumah dan ruang kerja yang lebih nyaman.</p></div><div><h4>Menu</h4><a href="katalog.html">Produk</a><a href="#kategori">Kategori</a><a href="index.html#koleksi">Koleksi</a><a href="index.html#tentang">Tentang Kami</a></div><div><h4>Kontak</h4><p>Jl. Contoh No. 123<br>Yogyakarta, Indonesia</p><p>0812-3456-7890<br>hello@gejafurniture.id</p></div><div><h4>Jam layanan</h4><p>Senin–Sabtu<br>09.00–17.00 WIB</p><a class="wa" href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">Chat WhatsApp →</a></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> Geja Furniture. All rights reserved.</span><span>Kebijakan Privasi · Syarat & Ketentuan</span></div></footer>
 
-  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalName" aria-hidden="true"><div class="modal-box"><button class="modal-close" id="modalClose" type="button" aria-label="Tutup detail">×</button><img id="modalImg" src="" alt=""><div class="modal-info"><p class="eyebrow" id="modalCategory"></p><h2 id="modalName"></h2><div class="modal-price-row"><strong id="modalPrice"></strong><span id="modalStatus"></span></div><p id="modalDesc"></p><div class="spec" id="modalSpec"></div><div class="modal-actions"><a class="btn primary" id="modalContact" target="_blank" rel="noopener noreferrer">Tanya via WhatsApp →</a><button class="btn outline" id="modalShare" type="button">Bagikan</button></div></div></div></div>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalName" aria-hidden="true"><div class="modal-box"><button class="modal-close" id="modalClose" type="button" aria-label="Tutup detail">×</button><img id="modalImg" src="" alt=""><div class="modal-info"><p class="eyebrow" id="modalCategory"></p><h2 id="modalName"></h2><div class="modal-price-row"><strong id="modalPrice"></strong></div><p id="modalDesc"></p><div class="spec" id="modalSpec"></div><div class="modal-actions"><a class="btn primary" id="modalContact" target="_blank" rel="noopener noreferrer">Tanya via WhatsApp →</a><button class="btn outline" id="modalShare" type="button">Bagikan</button></div></div></div></div>
 
   <script src="script.js"></script>
 </body>
