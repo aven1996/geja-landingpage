@@ -227,7 +227,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 .shopping-actions{display:grid;gap:12px}
 .shopping-button{display:flex;align-items:center;gap:15px;min-height:78px;padding:15px 18px;border-radius:10px;text-decoration:none;color:#fff;box-shadow:0 10px 24px rgba(57,83,108,.12);transition:transform .2s,box-shadow .2s}
 .shopee-modal-button{background:#ee4d2d;color:#fff}
-.whatsapp-modal-button{background:#198754;color:#fff}
+.whatsapp-button,.whatsapp-modal-button{background:#198754;color:#fff}
 .modal-action-icon{width:18px;height:18px;object-fit:contain;filter:brightness(0) invert(1)}
 .modal-actions{display:grid;grid-template-columns:1fr;gap:10px}
 .modal-actions .btn{width:100%;min-width:0}
@@ -239,7 +239,6 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 .shopping-button strong{font-size:15px;font-weight:700}
 .shopping-arrow{margin-left:auto;font-size:22px;line-height:1}
 .shopee-button{background:#ee4d2d}
-.whatsapp-button{background:#198754}
 @media(max-width:900px){.shopping-inner{grid-template-columns:1fr;gap:30px}}
 @media(max-width:620px){.shopping{padding-top:45px;padding-bottom:45px}.shopping-inner{gap:25px}.shopping-text{font-size:13px}.shopping-button{min-height:72px;padding:13px 15px}.shopping-icon{width:31px;height:31px;flex-basis:31px}.shopping-button strong{font-size:13px}}
 

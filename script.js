@@ -137,13 +137,17 @@ function shopeeUrl(p) {
   return p.shopee || `https://shopee.co.id/search?keyword=${encodeURIComponent(p.name)}`;
 }
 
+function productUrl(p) {
+  return `${location.origin}${location.pathname}#produk-${encodeURIComponent(p.id)}`;
+}
+
 function whatsappUrl(p) {
-  const message = `Halo Geja Furniture,\n\nSaya tertarik dengan produk:\n${p.name}\nKode: ${p.id}\nHarga: ${rupiah(p.price)}\n\nMohon informasi mengenai stok, detail, dan pemesanannya. Terima kasih.`;
+  const message = `Halo Geja Furniture,\n\nSaya tertarik dengan produk:\n${p.name}\nKode: ${p.id}\nHarga: ${rupiah(p.price)}\n\nLihat foto dan detail produk:\n${productUrl(p)}\n\nMohon informasi mengenai stok, detail, dan pemesanannya. Terima kasih.`;
   return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
 }
 
 async function shareProduct(p) {
-  const url = `${location.origin}${location.pathname}#produk-${encodeURIComponent(p.id)}`;
+  const url = productUrl(p);
   if (navigator.share) {
     try { await navigator.share({title:`${p.name} — Geja Furniture`, text:`${p.name} · ${rupiah(p.price)}`, url}); } catch (_) {}
   } else if (navigator.clipboard) {
