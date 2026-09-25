@@ -8,34 +8,33 @@ const CONFIG = {
 };
 
 const products = [
- {id:"GEJA-SOF-001",name:"Sofa Aruna 3 Seater",cat:"Sofa",price:7250000,material:"Fabric + kayu",color:"Beige",size:"210 × 85 × 80 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456789",img:"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85",desc:"Sofa 3 seater dengan desain minimalis dan bantalan nyaman untuk ruang keluarga."},
- {id:"GEJA-SOF-002",name:"Sofa Luma 2 Seater",cat:"Sofa",price:5490000,material:"Fabric",color:"Cream",size:"170 × 82 × 78 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456790",img:"https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1000&q=85",desc:"Sofa compact untuk apartemen, ruang tamu, atau sudut santai."},
- {id:"GEJA-KUR-001",name:"Kursi Makan Sora",cat:"Kursi",price:895000,material:"Kayu + fabric",color:"Natural",size:"52 × 55 × 78 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456791",img:"https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=85",desc:"Kursi makan dengan siluet sederhana yang mudah dipadukan."},
- {id:"GEJA-KUR-002",name:"Lounge Chair Nami",cat:"Kursi",price:1650000,material:"Fabric + kayu",color:"Sand",size:"72 × 78 × 82 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456792",img:"https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1000&q=85",desc:"Kursi lounge untuk membaca dan menikmati waktu santai."},
- {id:"GEJA-MEI-001",name:"Coffee Table Yui",cat:"Meja",price:1275000,material:"Kayu olahan",color:"Oak",size:"Ø 80 × 40 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456793",img:"https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1000&q=85",desc:"Coffee table minimalis dengan bentuk lembut untuk ruang tamu."},
- {id:"GEJA-MEI-002",name:"Meja Makan Tami",cat:"Meja",price:2890000,material:"Kayu solid",color:"Natural",size:"160 × 90 × 75 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456794",img:"https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1000&q=85",desc:"Meja makan untuk keluarga dengan tampilan hangat dan natural."},
- {id:"GEJA-MEI-003",name:"Work Desk Kumi",cat:"Meja",price:2350000,material:"Wood veneer",color:"Walnut",size:"120 × 60 × 75 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456795",img:"https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=85",desc:"Meja kerja minimalis dengan area kerja yang lapang."},
- {id:"GEJA-STO-001",name:"Cabinet Raka",cat:"Storage",price:3190000,material:"Wood",color:"Walnut",size:"100 × 45 × 120 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456796",img:"https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=1000&q=85",desc:"Storage tertutup untuk menjaga ruang tetap rapi."},
- {id:"GEJA-STO-002",name:"Rak Buku Nara",cat:"Storage",price:1890000,material:"Kayu",color:"Natural",size:"80 × 35 × 180 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456797",img:"https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=1000&q=85",desc:"Rak terbuka untuk buku, dekorasi, dan koleksi favorit."},
- {id:"GEJA-KAM-001",name:"Bed Frame Rumi",cat:"Kamar Tidur",price:4350000,material:"Kayu",color:"Oak",size:"160 × 200 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456798",img:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=85",desc:"Rangka tempat tidur dengan karakter minimalis dan hangat."},
- {id:"GEJA-KAM-002",name:"Bedside Table Kira",cat:"Kamar Tidur",price:925000,material:"Kayu",color:"Natural",size:"45 × 40 × 50 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456799",img:"https://images.unsplash.com/photo-1538688423619-a81d3f23454b?auto=format&fit=crop&w=1000&q=85",desc:"Nakas ringkas untuk kebutuhan di samping tempat tidur."},
- {id:"GEJA-SOF-003",name:"Sofa Bed Hana",cat:"Sofa",price:4650000,material:"Fabric",color:"Grey",size:"200 × 90 × 85 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456800",img:"https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1000&q=85",desc:"Sofa yang dapat diubah menjadi tempat beristirahat."},
- {id:"GEJA-AKS-001",name:"Floor Lamp Lio",cat:"Aksesoris",price:895000,material:"Metal + fabric",color:"White",size:"45 × 45 × 150 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456801",img:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=85",desc:"Lampu lantai dengan karakter ringan untuk sudut baca dan ruang santai."},
- {id:"GEJA-AKS-002",name:"Cushion Arlo",cat:"Aksesoris",price:325000,material:"Cotton",color:"Blue Sand",size:"45 × 45 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456802",img:"https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1000&q=85",desc:"Bantal dekoratif untuk menambah aksen warna yang lembut pada ruang."}
+ {id:"GEJA-SOF-001",name:"Sofa Aruna 3 Seater",cat:"Sofa",brand:"Geja Furniture",price:7250000,material:"Fabric + kayu",color:"Beige",size:"210 × 85 × 80 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456789",img:"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85",desc:"Sofa 3 seater dengan desain minimalis dan bantalan nyaman untuk ruang keluarga."},
+ {id:"GEJA-SOF-002",name:"Sofa Luma 2 Seater",cat:"Sofa",brand:"Geja Furniture",price:5490000,material:"Fabric",color:"Cream",size:"170 × 82 × 78 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456790",img:"https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1000&q=85",desc:"Sofa compact untuk apartemen, ruang tamu, atau sudut santai."},
+ {id:"GEJA-KUR-001",name:"Kursi Makan Sora",cat:"Kursi",brand:"Geja Furniture",price:895000,material:"Kayu + fabric",color:"Natural",size:"52 × 55 × 78 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456791",img:"https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=85",desc:"Kursi makan dengan siluet sederhana yang mudah dipadukan."},
+ {id:"GEJA-KUR-002",name:"Lounge Chair Nami",cat:"Kursi",brand:"Geja Furniture",price:1650000,material:"Fabric + kayu",color:"Sand",size:"72 × 78 × 82 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456792",img:"https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1000&q=85",desc:"Kursi lounge untuk membaca dan menikmati waktu santai."},
+ {id:"GEJA-MEI-001",name:"Coffee Table Yui",cat:"Meja",brand:"Geja Furniture",price:1275000,material:"Kayu olahan",color:"Oak",size:"Ø 80 × 40 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456793",img:"https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1000&q=85",desc:"Coffee table minimalis dengan bentuk lembut untuk ruang tamu."},
+ {id:"GEJA-MEI-002",name:"Meja Makan Tami",cat:"Meja",brand:"Geja Furniture",price:2890000,material:"Kayu solid",color:"Natural",size:"160 × 90 × 75 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456794",img:"https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1000&q=85",desc:"Meja makan untuk keluarga dengan tampilan hangat dan natural."},
+ {id:"GEJA-MEI-003",name:"Work Desk Kumi",cat:"Meja",brand:"Geja Furniture",price:2350000,material:"Wood veneer",color:"Walnut",size:"120 × 60 × 75 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456795",img:"https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=85",desc:"Meja kerja minimalis dengan area kerja yang lapang."},
+ {id:"GEJA-STO-001",name:"Cabinet Raka",cat:"Storage",brand:"Geja Furniture",price:3190000,material:"Wood",color:"Walnut",size:"100 × 45 × 120 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456796",img:"https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=1000&q=85",desc:"Storage tertutup untuk menjaga ruang tetap rapi."},
+ {id:"GEJA-STO-002",name:"Rak Buku Nara",cat:"Storage",brand:"Geja Furniture",price:1890000,material:"Kayu",color:"Natural",size:"80 × 35 × 180 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456797",img:"https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=1000&q=85",desc:"Rak terbuka untuk buku, dekorasi, dan koleksi favorit."},
+ {id:"GEJA-KAM-001",name:"Bed Frame Rumi",cat:"Kamar Tidur",brand:"Geja Furniture",price:4350000,material:"Kayu",color:"Oak",size:"160 × 200 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456798",img:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=85",desc:"Rangka tempat tidur dengan karakter minimalis dan hangat."},
+ {id:"GEJA-KAM-002",name:"Bedside Table Kira",cat:"Kamar Tidur",brand:"Geja Furniture",price:925000,material:"Kayu",color:"Natural",size:"45 × 40 × 50 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456799",img:"https://images.unsplash.com/photo-1538688423619-a81d3f23454b?auto=format&fit=crop&w=1000&q=85",desc:"Nakas ringkas untuk kebutuhan di samping tempat tidur."},
+ {id:"GEJA-SOF-003",name:"Sofa Bed Hana",cat:"Sofa",brand:"Geja Furniture",price:4650000,material:"Fabric",color:"Grey",size:"200 × 90 × 85 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456800",img:"https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1000&q=85",desc:"Sofa yang dapat diubah menjadi tempat beristirahat."},
+ {id:"GEJA-AKS-001",name:"Floor Lamp Lio",cat:"Aksesoris",brand:"Geja Furniture",price:895000,material:"Metal + fabric",color:"White",size:"45 × 45 × 150 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456801",img:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=85",desc:"Lampu lantai dengan karakter ringan untuk sudut baca dan ruang santai."},
+ {id:"GEJA-AKS-002",name:"Cushion Arlo",cat:"Aksesoris",brand:"Geja Furniture",price:325000,material:"Cotton",color:"Blue Sand",size:"45 × 45 cm",shopee:"https://shopee.co.id/Geja-Furniture-i.123456789.123456802",img:"https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1000&q=85",desc:"Bantal dekoratif untuk menambah aksen warna yang lembut pada ruang."}
 ];
 
 const $ = (selector, root=document) => root.querySelector(selector);
 const $$ = (selector, root=document) => [...root.querySelectorAll(selector)];
 const rupiah = n => new Intl.NumberFormat("id-ID", {style:"currency", currency:CONFIG.currency, maximumFractionDigits:0}).format(n);
 let currentCategory = "Semua";
-let sortMode = "default";
+let sortMode = "latest";
+let brandFilter = "all";
 let minPrice = 0;
 let maxPrice = Infinity;
 let modalProductId = null;
 
 const grid = $("#productGrid");
-const search = $("#search");
-const count = $("#resultCount");
 const empty = $("#emptyState");
 
 function escapeHtml(value) {
@@ -44,19 +43,25 @@ function escapeHtml(value) {
 
 function productMatches(p, q) {
   if (!q) return true;
-  const haystack = [p.id,p.name,p.cat,p.desc,p.material,p.color,p.size].join(" ").toLowerCase();
+  const haystack = [p.id,p.name,p.cat,p.brand,p.desc,p.material,p.color,p.size].join(" ").toLowerCase();
   return haystack.includes(q);
 }
 
 function getFilteredProducts() {
-  const q = search.value.trim().toLowerCase();
+  const q = headerSearch.value.trim().toLowerCase();
   const filtered = products.filter(p =>
     (currentCategory === "Semua" || p.cat === currentCategory) &&
+    (brandFilter === "all" || p.brand === brandFilter) &&
     p.price >= minPrice && p.price <= maxPrice &&
     productMatches(p, q)
   );
 
   return filtered.sort((a,b) => {
+    if (sortMode === "latest") {
+      const aNumber = Number(a.id.match(/\d+$/)?.[0] || 0);
+      const bNumber = Number(b.id.match(/\d+$/)?.[0] || 0);
+      return bNumber - aNumber || b.id.localeCompare(a.id, "id");
+    }
     if (sortMode === "price-low") return a.price - b.price;
     if (sortMode === "price-high") return b.price - a.price;
     if (sortMode === "name") return a.name.localeCompare(b.name, "id");
@@ -81,7 +86,6 @@ function productCard(p) {
 
 function render() {
   const data = getFilteredProducts();
-  count.textContent = `${data.length} dari ${products.length} produk`;
   grid.innerHTML = data.map(productCard).join("");
   empty.hidden = data.length !== 0;
   $$(".product", grid).forEach(card => {
@@ -112,7 +116,7 @@ function openModal(id, updateUrl=true) {
   modalProductId = p.id;
   $("#modalImg").src = p.img;
   $("#modalImg").alt = p.name;
-  $("#modalCategory").textContent = `${p.cat} · ${p.id}`;
+  $("#modalCategory").textContent = `${p.cat} · ${p.brand}`;
   $("#modalName").textContent = p.name;
   $("#modalPrice").textContent = rupiah(p.price);
   $("#modalDesc").textContent = p.desc;
@@ -174,9 +178,14 @@ $("#priceRange").addEventListener("change", e => {
   render();
 });
 
+$("#brandFilter").addEventListener("change", e => {
+  brandFilter = e.target.value;
+  render();
+});
+
 $("#clearFilters").addEventListener("click", () => {
-  currentCategory = "Semua"; sortMode = "default"; minPrice = 0; maxPrice = Infinity; search.value = ""; headerSearch.value = "";
-  $("#sort").value = "default"; $("#priceRange").value = "all"; setFilter("Semua", false);
+  currentCategory = "Semua"; sortMode = "latest"; brandFilter = "all"; minPrice = 0; maxPrice = Infinity; headerSearch.value = "";
+  $("#sort").value = "latest"; $("#priceRange").value = "all"; $("#brandFilter").value = "all"; setFilter("Semua", false);
 });
 
 const menuBtn = $("#menuBtn");
@@ -207,21 +216,21 @@ headerSearchForm.addEventListener("submit", e => {
   goToCatalog(headerSearch.value);
 });
 
-// Jika sedang berada di halaman katalog, isi pencarian dari URL dan tampilkan hasilnya.
+// Isi pencarian header dari URL dan tampilkan hasilnya pada halaman aktif.
 const urlQuery = new URLSearchParams(location.search).get("q");
 if (urlQuery) {
-  search.value = urlQuery;
   headerSearch.value = urlQuery;
 }
 
 headerSearch.addEventListener("input", () => {
-  // Di halaman katalog, preview hasil tetap diperbarui tanpa berpindah halaman.
-  if (location.pathname.endsWith("katalog.html")) {
-    search.value = headerSearch.value;
-    render();
+  render();
+});
+
+headerSearch.addEventListener("focus", () => {
+  if (!location.pathname.endsWith("katalog.html")) {
+    $("#produk").scrollIntoView({behavior:"smooth", block:"start"});
   }
 });
-search.addEventListener("input", () => { headerSearch.value = search.value; render(); });
 
 // Slider kategori horizontal dengan tombol navigasi.
 const categoryTrack = $("#categoryTrack");
