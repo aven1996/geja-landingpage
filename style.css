@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 .category-card{min-width:124px;flex-basis:124px;padding:9px 5px 10px}
 .category-card>span:last-child{font-size:13px;font-weight:600;margin-top:6px}
 .category-icon{width:44px;height:44px}
-.category-icon svg{width:30px;height:30px;stroke-width:1.7}
+.category-icon svg{width:30px;height:30px;stroke-width:2.2}
 .slider-arrow{width:32px;height:32px;font-size:27px}
 
 /* Produk, koleksi, benefit, footer, dan modal */
@@ -170,6 +170,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
   transition:background .2s, transform .2s, border-color .2s;
 }
 .header-product-btn span:first-child{font-size:19px;line-height:1;}
+.catalog-icon{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .header-product-btn:hover{background:rgba(255,255,255,.20);border-color:rgba(255,255,255,.75);transform:translateY(-1px);}
 .product h3{font-size:18px;font-weight:750;line-height:1.25;margin:8px 0 8px;}
 .price{font-size:18px;font-weight:500;line-height:1.2;}
@@ -178,9 +179,16 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
   .header-product-btn{min-width:82px;padding:0 12px;font-size:13px;}
 }
 @media(max-width:900px){
-  .header-product-btn{display:none;}
+  .header-product-btn{display:inline-flex;}
 }
 @media(max-width:620px){
+  .header{gap:8px}
+  .logo img{width:76px}
+  .header-search{width:clamp(145px,calc(100vw - 175px),210px)}
+  .header-product-btn{min-width:42px;width:42px;height:36px;padding:0;font-size:0;gap:0}
+  .header-product-btn span:first-child{display:flex;font-size:19px}
+  .catalog-icon{width:18px;height:18px}
+  .header-product-btn span:last-child{display:none}
   .product h3{font-size:17px;font-weight:750;}
   .price{font-size:17px;font-weight:500;}
   .product-category{font-size:10px;}
