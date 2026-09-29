@@ -258,6 +258,53 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 @media(max-width:900px){.shopping-inner{grid-template-columns:1fr;gap:30px}}
 @media(max-width:620px){.shopping{padding-top:45px;padding-bottom:45px}.shopping-inner{gap:25px}.shopping-text{font-size:13px}.shopping-button{min-height:72px;padding:13px 15px}.shopping-icon{width:31px;height:31px;flex-basis:31px}.shopping-button strong{font-size:13px}}
 
+/* Header navigation: clean light bar with a soft active tab */
+.header{
+  background:var(--blue);
+  border-bottom:1px solid rgba(255,255,255,.18);
+  box-shadow:0 5px 20px rgba(63,98,139,.14);
+}
+.header > .logo img{filter:brightness(0) invert(1)}
+.header nav{gap:5px}
+.header nav a{
+  padding:11px 13px;
+  border-radius:7px;
+  color:#fff;
+  font-size:13px;
+  font-weight:700;
+  transition:background .2s,color .2s;
+}
+.header nav a:after{display:none}
+.header nav a:hover,.header nav a.nav-active{
+  background:rgba(255,255,255,.16);
+  color:#fff;
+}
+.header-search input{
+  background:rgba(255,255,255,.96);
+  border:1px solid rgba(255,255,255,.5);
+}
+.search-icon,.header-icon,.menu-btn{color:#fff}
+.header-product-btn{
+  background:#fff;
+  border-color:#fff;
+  color:var(--blue-dark);
+}
+.header-product-btn:hover{
+  background:var(--blue-pale);
+  border-color:var(--blue-pale);
+}
+@media(max-width:900px){
+  .header nav{
+    align-items:stretch;
+    gap:5px;
+    background:var(--blue);
+    padding:14px 6vw 18px;
+    box-shadow:0 14px 22px rgba(43,67,88,.18);
+  }
+  .header nav a{width:100%;padding:12px 14px}
+  .header nav a:hover,.header nav a.nav-active{background:rgba(255,255,255,.16);color:#fff}
+}
+
 .location{background:#fff;border-top:1px solid var(--line)}
 .location-inner{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:stretch}
 .location-copy{display:flex;flex-direction:column;justify-content:center}
