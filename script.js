@@ -402,11 +402,33 @@ $("#clearFilters").addEventListener("click", () => {
 
 const menuBtn = $("#menuBtn");
 const nav = $("#nav");
+const navLinks = $$("#nav a");
+function setActiveNav(activeLink) {
+  navLinks.forEach(link => link.classList.toggle("nav-active", link === activeLink));
+}
+function syncActiveNav() {
+  const currentUrl = new URL(location.href);
+  const activeLink = navLinks.find(link => {
+    const linkUrl = new URL(link.href, location.href);
+    return linkUrl.pathname === currentUrl.pathname && (
+      linkUrl.hash === currentUrl.hash ||
+      (linkUrl.hash === "" && currentUrl.hash === "") ||
+      (linkUrl.hash === "#produk" && currentUrl.hash.startsWith("#produk-"))
+    );
+  });
+  if (activeLink) setActiveNav(activeLink);
+}
+syncActiveNav();
+window.addEventListener("hashchange", syncActiveNav);
 menuBtn.addEventListener("click", () => {
   const opened = nav.classList.toggle("show");
   menuBtn.setAttribute("aria-expanded", String(opened));
 });
-$$('nav a').forEach(a => a.addEventListener("click", () => { nav.classList.remove("show"); menuBtn.setAttribute("aria-expanded","false"); }));
+navLinks.forEach(a => a.addEventListener("click", () => {
+  setActiveNav(a);
+  nav.classList.remove("show");
+  menuBtn.setAttribute("aria-expanded","false");
+}));
 
 
 // Header search: pencarian dari header membuka halaman katalog dengan kata kunci.

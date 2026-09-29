@@ -339,8 +339,8 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 
 .modal-gallery{position:relative;grid-column:1;grid-row:1;min-height:450px;height:100%;overflow:hidden;background:#e8edf0;touch-action:pan-y}
 .modal-gallery>img{display:block;width:100%;height:100%;min-height:450px;object-fit:cover}
-.modal-image-arrow{position:absolute;top:50%;z-index:2;display:flex;align-items:center;justify-content:center;width:42px;height:42px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.92);color:var(--blue-dark);font:24px/1 "Quicksand",sans-serif;cursor:pointer;transform:translateY(-50%);box-shadow:0 4px 14px rgba(30,45,60,.2)}
-.modal-image-arrow:hover{background:#fff}
+.modal-image-arrow{position:absolute;top:50%;z-index:2;display:flex;align-items:center;justify-content:center;width:42px;height:42px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.62);color:var(--blue-dark);font:24px/1 "Quicksand",sans-serif;cursor:pointer;transform:translateY(-50%);box-shadow:0 4px 14px rgba(30,45,60,.2)}
+.modal-image-arrow:hover{background:rgba(255,255,255,.78)}
 .modal-image-arrow:focus-visible,.modal-image-dot:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
 .modal-image-arrow.previous{left:14px}
 .modal-image-arrow.next{right:14px}
@@ -355,6 +355,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 .product-image-gallery-icon svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 
 .modal-box{max-height:calc(100vh - 60px);overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain}
+.modal-box{box-shadow:0 24px 65px rgba(15,23,32,.30)}
 @supports(height:100dvh){.modal-box{max-height:calc(100dvh - 60px)}}
 @media(max-width:620px){
   .modal-box{max-height:calc(100vh - 24px)}
@@ -371,3 +372,4 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 .product-image-viewer-close:focus-visible,.product-image-viewer-reset:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .modal-gallery>img{cursor:zoom-in}
 .product-image-viewer-reset[hidden]{display:none}
+.modal{backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
