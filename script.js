@@ -2,7 +2,7 @@
    Ganti nomor WhatsApp, alamat, email, dan data produk pada bagian CONFIG/DATA.
 */
 const CONFIG = {
-  whatsapp: "6281234567890",
+  whatsapp: "6281904985979",
   email: "hello@gejafurniture.id",
   currency: "IDR"
 };
