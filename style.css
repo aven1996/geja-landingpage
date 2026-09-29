@@ -373,3 +373,4 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
 .modal-gallery>img{cursor:zoom-in}
 .product-image-viewer-reset[hidden]{display:none}
 .modal{backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+@media(max-width:1100px){.toolbar .selects{justify-content:flex-start}}
