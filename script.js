@@ -242,12 +242,19 @@ const heroCarousel = $("#heroCarousel");
 if (heroCarousel) {
   const heroSlides = $$(".hero-slide", heroCarousel);
   const heroDots = $$(".hero-dot", heroCarousel);
+  const heroCardLabel = $(".hero-card-label", heroCarousel);
+  const heroCardTitle = $(".hero-card-title", heroCarousel);
+  const heroCardDescription = $(".hero-card-description", heroCarousel);
   let heroIndex = 0;
   let heroTimer;
 
   function showHeroSlide(index) {
     heroIndex = (index + heroSlides.length) % heroSlides.length;
+    const activeSlide = heroSlides[heroIndex];
     heroSlides.forEach((slide, i) => slide.classList.toggle("active", i === heroIndex));
+    heroCardLabel.textContent = activeSlide.dataset.cardLabel;
+    heroCardTitle.textContent = activeSlide.dataset.cardTitle;
+    heroCardDescription.textContent = activeSlide.dataset.cardDescription;
     heroDots.forEach((dot, i) => {
       const selected = i === heroIndex;
       dot.classList.toggle("active", selected);
