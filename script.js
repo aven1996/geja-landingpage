@@ -246,16 +246,55 @@ function whatsappUrl(p) {
   return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
 }
 
+async function copyProductUrl(url) {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(url);
+      return true;
+    }
+  } catch (_) {}
+
+  const field = document.createElement("textarea");
+  field.value = url;
+  field.setAttribute("readonly", "");
+  field.style.position = "fixed";
+  field.style.opacity = "0";
+  document.body.append(field);
+  field.select();
+  let copied = false;
+  try { copied = document.execCommand("copy"); } catch (_) {}
+  field.remove();
+  return copied;
+}
+
 async function shareProduct(p) {
   const url = productUrl(p);
+  const payload = {title:`${p.name} — Geja Furniture`, text:`${p.name} · ${rupiah(p.price)}`, url};
   if (navigator.share) {
-    try { await navigator.share({title:`${p.name} — Geja Furniture`, text:`${p.name} · ${rupiah(p.price)}`, url}); } catch (_) {}
-  } else if (navigator.clipboard) {
-    await navigator.clipboard.writeText(url);
-    const btn = $("#modalShare");
-    const old = btn.textContent; btn.textContent = "Link tersalin";
-    setTimeout(() => btn.textContent = old, 1600);
+    try {
+      await navigator.share(payload);
+      return;
+    } catch (error) {
+      if (error.name === "AbortError") return;
+    }
   }
+
+  const btn = $("#modalShare");
+  if (await copyProductUrl(url)) {
+    const oldLabel = btn.getAttribute("aria-label");
+    const oldTitle = btn.title;
+    btn.setAttribute("aria-label", "Link produk tersalin");
+    btn.title = "Link produk tersalin";
+    btn.classList.add("copied");
+    setTimeout(() => {
+      btn.setAttribute("aria-label", oldLabel);
+      btn.title = oldTitle;
+      btn.classList.remove("copied");
+    }, 1800);
+    return;
+  }
+
+  window.prompt("Salin tautan produk ini:", url);
 }
 
 $("#modalClose").addEventListener("click", () => closeModal());
