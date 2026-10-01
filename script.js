@@ -387,9 +387,29 @@ function productCard(p) {
   </article>`;
 }
 
+const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const scrollRevealObserver = !reduceMotion && "IntersectionObserver" in window
+  ? new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      scrollRevealObserver.unobserve(entry.target);
+    });
+  }, {threshold:0.12, rootMargin:"0px 0px -40px 0px"})
+  : null;
+
+function observeScrollReveal(elements) {
+  if (!scrollRevealObserver) return;
+  elements.forEach(element => {
+    element.classList.add("scroll-reveal");
+    scrollRevealObserver.observe(element);
+  });
+}
+
 function render() {
   const data = getFilteredProducts();
   grid.innerHTML = data.map(productCard).join("");
+  observeScrollReveal($$(".product", grid));
   empty.hidden = data.length !== 0;
   $$(".product", grid).forEach(card => {
     card.addEventListener("click", e => {
@@ -733,5 +753,6 @@ function handleHash() {
 $("#year").textContent = new Date().getFullYear();
 
 // Inisialisasi.
+observeScrollReveal($$("main > section:not(.hero)"));
 render();
 handleHash();
