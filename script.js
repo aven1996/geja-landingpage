@@ -9,51 +9,137 @@ const CONFIG = {
 
 const products = [
   {
-    id: "GEJA-SOF-001",
-    name: "Sofa Aruna 3 Seater",
-    cat: "Sofa",
+    id: "GEJA-001",
+    name: "Geja - Lampu Tidur ESC tombol keyboard / Lampu Tidur Hias Aesthetic LED",
+    cat: "Lampu",
     brand: "Geja Furniture",
-    price: 7250000,
-    material: "Fabric + kayu",
-    color: "Beige",
-    size: "210 × 85 × 80 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456789",
+    price: 189000,
+    material: "-",
+    color: "LED Warna Warni",
+    size: "13 x 13 x 8 cm",
+    shopee: "https://shopee.co.id/Geja-Lampu-Tidur-ESC-tombol-keyboard-Lampu-Tidur-Hias-Aesthetic-LED-i.20077758.48667775191?extraParams=%7B%22display_model_id%22%3A411502112726%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85"
+      "images/LAMPU.png","images/LAMPU (1).png", "images/LAMPU (2).png", "images/LAMPU (3).png"
     ],
-    desc: "Sofa 3 seater dengan desain minimalis dan bantalan nyaman untuk ruang keluarga."
+    desc: `Geja - LAMP . Lampu Tidur ESC Tombol Keyboard Minimalis / Lampu Hias Aesthetic LED Dekorasi 
+
+            Ukuran :
+            13 x 13 x 8 cm
+
+            Tegangan : 
+            220V
+
+            Dilengkapi dengan :
+            Remote ( Mengganti warna lampu ) 
+
+            Produk yang dikirim :
+            - 1 Buah Lampu Tidur
+            - 1 Buah Remote
+
+            Cocok Untuk :
+            - Dekorasi Unik
+            - Hadiah 
+            - Kado 
+
+            Pre Order PO : 2-5 Hari`
   },
   {
-    id: "GEJA-SOF-002",
-    name: "Sofa Luma 2 Seater",
-    cat: "Sofa",
+    id: "GEJA-002",
+    name: "Geja - Lampu Tidur Ulat Minimalis / Lampu Tidur Hias Aesthetic LED Dekorasi",
+    cat: "Lampu",
     brand: "Geja Furniture",
-    price: 5490000,
-    material: "Fabric",
-    color: "Cream",
-    size: "170 × 82 × 78 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456790",
+    price: 590000,
+    material: "-",
+    color: "LED Warna Warni",
+    size: "40 x 20 x 30 cm",
+    shopee: "https://shopee.co.id/Geja-Lampu-Tidur-Ulat-Minimalis-Lampu-Tidur-Hias-Aesthetic-LED-Dekorasi-i.20077758.49017765830?extraParams=%7B%22display_model_id%22%3A421502285363%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85"
+      "images/LAMPU2.png",
+      "images/LAMPU2 (1).png",
+      "images/LAMPU2 (2).png",
+      "images/LAMPU2 (3).png",
+      "images/LAMPU2 (4).png",
+      "images/LAMPU2 (5).png",
+      "images/LAMPU2 (6).png"
     ],
-    desc: "Sofa compact untuk apartemen, ruang tamu, atau sudut santai."
+    desc: `Geja Lampu Tidur Ulat Minimalis / Lampu Hias Aesthetic LED Dekorasi
+
+            Ukuran :
+            40 x 20 x 30 cm
+
+            Tegangan : 
+            220V
+
+            Cocok Untuk :
+            Dekorasi Unik
+            Hadiah	
+            Kado
+
+            Pre Order (PO) : 3-5 Hari`
   },
   {
-    id: "GEJA-KUR-001",
-    name: "Kursi Makan Sora",
+    id: "GEJA-003",
+    name: "Geja - Sofa 2 Seater Pillo Minimalis Modern Aesthetic",
     cat: "Kursi",
     brand: "Geja Furniture",
-    price: 895000,
-    material: "Kayu + fabric",
-    color: "Natural",
-    size: "52 × 55 × 78 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456791",
+    price: 5449000,
+    material: "Pelapis Kain Mebel",
+    color: "Milk",
+    size: "145 x 80 x 88 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-2-Seater-Pillo-Minimalis-Modern-Aesthetic-i.20077758.53317934399?extraParams=%7B%22display_model_id%22%3A108799951173%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1000&q=85"
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=85"
     ],
-    desc: "Kursi makan dengan siluet sederhana yang mudah dipadukan."
+    desc: `Geja - Sofa 2 Seater Pillo Minimalis Modern Japandi Aesthetic
+
+            Kursi sofa minimalis ini dirancang dengan desain yang  ergonomis dan juga stylish. Desain kaki model silinder dari sofa santai ini dirancang menggunakan material berkualitas sehingga begitu kokoh. Hunian pun terasa lebih modern dan juga aesthetic.
+
+            Desain Organik & Modern:
+            Model sofa ini tentu berbeda dengan yang lainnya sehingga cocok untuk Anda yang menginginkan desain furniture unik.
+            Bagi Anda yang mengusung konsep interior Japandi, MidCentury, maupun Minimalis maka cocok menggunakan sofa aesthetic ini.
+
+            Material:
+            - Kain 100% high quality
+            - Tekstur halus suede premium
+            - Durabilitasnya tinggi
+            - Busa empuk royam foam grade A
+            - Mudah dibersihkan
+
+            Proses Perawatan:
+            - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+            - Segera lap menggunakan tisu atau kain kering jika terkena noda
+            - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+
+            Produk yang Dikirim:
+            1 Buah Sofa
+
+            Kenyamanan Maksimal:
+            Dudukan empuk dengan kepadatan busa tinggi, nyaman digunakan untuk:
+            - Bersantai
+            - Membaca buku
+            - Sebagai penambah dekorasi ruang tamu
+            - Konstruksi Kokoh:
+
+            Dilengkapi dengan kaki penopang yang besar dan stabil, mampu menahan beban dengan aman.
+            - Warna:
+            Milk
+
+            Cocok Diletakkan di:
+            - Ruang Tamu
+            - Kamar Tidur
+            - Studio Foto
+            - Coffee Shop
+
+            Ukuran Sofa 2 Seater:
+            145 x 80 x 88 cm
+
+            Estimasi Produk Pre Order 2-3 minggu.
+            (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+            Catatan:
+            WAJIB tanyakan stok atau variasi produk sebelum membeli.
+            Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk`
   },
   {
     id: "GEJA-KUR-002",
