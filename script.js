@@ -196,52 +196,191 @@ const products = [
             (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)`
   },
   {
-    id: "GEJA-MEI-001",
-    name: "Coffee Table Yui",
-    cat: "Meja",
+    id: "GEJA-005",
+    name: "Geja - Kursi Teras Kayo Set 2-1-1 Seater Minimalis Modern Aesthetic",
+    cat: "Sofa",
     brand: "Geja Furniture",
-    price: 1275000,
-    material: "Kayu olahan",
-    color: "Oak",
-    size: "Ø 80 × 40 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456793",
+    price: 9049000,
+    material: "Kayu Jati, Kain Anti Cakar, Busa Royal Foam Premium",
+    color: "-",
+    size: "75 x 80 x 80 cm",
+    shopee: "https://shopee.co.id/Geja-Kursi-Teras-Kayo-Set-2-1-1-Seater-Minimalis-Modern-Aesthetic-i.20077758.45567959871?extraParams=%7B%22display_model_id%22%3A381518396293%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa3_1.webp",
+      "images/sofa3_2.webp",
+      "images/sofa3_3.webp",
+      "images/sofa3_4.webp",  
+      "images/sofa3_5.webp"
     ],
-    desc: "Coffee table minimalis dengan bentuk lembut untuk ruang tamu."
+    desc: `Geja - Kursi Teras Kayo Set 2-1-1 Seater Minimalis Modern
+
+            Hadirkan nuansa klasik dan modern jadi satu lewat kursi teras dari Geja sekarang yuk! Desainnya yang berpadu dengan siluet minimalis dan modern mampu menciptakan atmosfer yang timeless dan berkelas. So, kamu nggak perlu khawatir lagi kalau mau menampilkan suasana vintage zaman dulu tapi tetep keliatan kekinian.
+
+            Proses Perawatan:
+
+            - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+            - Segera lap menggunakan tisu atau kain kering jika terkena noda
+            - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+
+            Produk yang Dikirim:
+            1 buah (Kursi 2 Seater Kayo)
+            2 buah (Kursi 1 Seater Kayo)
+            (Tanpa Meja)
+
+            Material:
+            - Rangka kaki sofa asli 100% asli kayu jati
+            - Kain anti cakar
+            - Busa royal foam premium
+            - Dilengkapi antı slip, all.
+
+
+            Ukuran Produk:
+            75x80x80 cm (Kursi Ukuran 1 Seater)
+            135x80x80 cm (Kursi Ukuran 2 Seater)
+
+            Kenapa harus punya Kursi Set Kurata 2-1-1 Seater?
+
+            - Kaki Kayu Asli 100% Jati:
+            Rangka kursi ini asli menggunakan kayu asli sehingga kokoh
+            dan tahan lama. Tampilannya pun juga makin manis karena ada aksen kayu naturalnya.
+
+            - Muat Banyak:
+            Sofa set ini tentunya bisa untuk duduk banyak orang. Kamu bisa menerima 3-4 tamu di sini tanpa harus takut duduk berdesak-desakan.
+
+            - Kainnya Anti Cakar:
+            Dudukan kursi set ini menggunakan kain anti cakar. Dengan begitu, kamu tidak lagi khawatir jika kucingmu bermain-main di area sini.
+
+            Cocok diletakkan di :
+            - Ruang keluarga
+            - Ruang tamu
+            - Teras rumah
+            - Balkon
+
+            Garansi : 1 Tahun (Busa, Kerangka, Kena Rayap Diganti
+            100% Baru)
+
+            Estimasi Produk Pre Order 4-5 minggu.
+            (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)`
   },
   {
-    id: "GEJA-MEI-002",
-    name: "Meja Makan Tami",
-    cat: "Meja",
+    id: "GEJA-006",
+    name: "Geja - Sofa Shizu 3 Seater Premium Anti Cakar Minimalis Modern Aesthetic",
+    cat: "Sofa",
     brand: "Geja Furniture",
-    price: 2890000,
-    material: "Kayu solid",
+    price: 8799000,
+    material: "Kayu Jati, Kain Anti Cakar, Busa Royal Foam Premium",
     color: "Natural",
-    size: "160 × 90 × 75 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456794",
+    size: "250 x 90 x 75 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Shizu-3-Seater-Premium-Anti-Cakar-Minimalis-Modern-Aesthetic-i.20077758.52917879698?extraParams=%7B%22display_model_id%22%3A341513902586%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa4_1.webp",
+      "images/sofa4_2.webp",
+      "images/sofa4_3.webp",
+      "images/sofa4_4.webp",
+      "images/sofa4_5.webp",
+      "images/sofa4_6.webp",
+      "images/sofa4_7.webp",
+      "images/sofa4_8.webp"
     ],
-    desc: "Meja makan untuk keluarga dengan tampilan hangat dan natural."
+    desc: `Temukan sentuhan cozy dan aesthetic modern untuk ruang tamu . Geja - Sofa Shizu 3 Seater Premium dari Geja menghadirkan kenyamanan empuk, tampilan minimalis, dan nuansa Japandi yang memanjakan. Nyaman untuk nonton film, hangout keluarga, hingga WFH di rumah.
+
+    Keunggulan Utama
+    - Dudukan lepasan dengan resleting: kain dudukan bisa dibuka dan dicuci.
+    - Pegas pocket spring/ulir: empuk dan nyaman.
+    - Kain anti cakar (kucing) dan anti slip: lebih tenang saat ada hewan peliharaan.
+    - Busa royal foam premium: nyaman untuk duduk dan bersantai.
+    - Rangka kaki 100% kayu jati asli: kokoh dan elegan.
+    - Bonus: 3 bantal sandaran minimalis + 1 kantong pocket organizer.
+    - Bebas pilih finishing kaki kayu (silakan chat admin).
+
+    Perbedaan Shizu Standar vs Premium
+    - Shizu Standar: dudukan paten, pegas zigzag, dimensi 250 x 80 x 75 cm.
+    - Shizu Premium: dudukan lepasan (resleting), pegas pocket spring/ulir lebih empuk, dimensi 250 x 90 x 75 cm (lebih lebar 10 cm dibanding standar).
+
+    Perawatan & Pembersihan
+    - Bersihkan debu/bulu/kotoran hewan menggunakan vacuum cleaner.
+    - Segera lap dengan tisu/kain kering jika terkena noda.
+    - Hindari menggosok kain terlalu keras agar serat kain tetap awet.
+    - Buka cover bantal sandaran, lalu jemur dan angin-anginkan.
+
+    Informasi Tambahan
+    - Asal Produk: Indonesia
+    - Garansi: 12 bulan (Garansi Produsen) — Busa, kerangka, kena rayap diganti 100% baru.
+    - Perakitan: Sudah dirakit
+    - Koleksi Barang Antik: Tidak
+    - Furniture Lipat: Tidak
+    - Produk Custom: Tidak
+    - Estimasi Pre Order: 2–3 minggu (jika produksi lebih cepat, akan diinformasikan via chat)
+    - Catatan pembelian: Wajib tanya stok/variasi sebelum membeli.
+    - Pengiriman: Gratis ongkir ke wilayah Jawa (pilih Kargo). Area DIY/Jateng/Jatim tertentu dapat subsidi ongkir; silakan hubungi admin via chat untuk info gratis ongkir/subsidi ke kotamu.`
   },
   {
-    id: "GEJA-MEI-003",
-    name: "Work Desk Kumi",
-    cat: "Meja",
+    id: "GEJA-007",
+    name: "Geja - Sofa Shizu Premium 2 Seater Anti Cakar Minimalis Modern",
+    cat: "Sofa",
     brand: "Geja Furniture",
-    price: 2350000,
-    material: "Wood veneer",
-    color: "Walnut",
-    size: "120 × 60 × 75 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456795",
+    price: 6799000,
+    material: "Kayu Jati, Kain Anti Cakar, Busa Royal Foam Premium",
+    color: "-",
+    size: "180 x 90 x 75 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Shizu-Premium-2-Seater-Anti-Cakar-Minimalis-Modern-i.20077758.47317910535?extraParams=%7B%22display_model_id%22%3A341513845756%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa5_1.webp",
+      "images/sofa5_2.webp",
+      "images/sofa5_3.webp",
+      "images/sofa5_4.webp",
+      "images/sofa5_5.webp"
     ],
-    desc: "Meja kerja minimalis dengan area kerja yang lapang."
+    desc: `Geja - Sofa Shizu 2 Seater Premium Anti Cakar Minimalis Modern
+
+          Waktunya bikin rumah makin aesthetic ala Pinterest modal Sota Shizu dari Geja yuk! Udah banyak influencer home decor hingga beberapa artis ternama yang pakai Sofa Shizu nih gaes! Checkout sekarang yuk buat mempercantik hunianmu!
+
+          Material:
+          - Rangka kaki asli 100% asli kayu jati
+          - Kain anti cakar* (kucing dan anjing)
+          - Busa royal foam premium
+          - Dilengkapi anti slip, dll.
+
+          Bonus:
+          - 2 bantal sandaran minimalis
+          - 1 kantong pocket organizer
+          - bebas pilih finishing kaki kayu (silakan chat admin)
+
+          Proses Perawatan:
+          - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+          - Segera lap menggunakan tisu atau kain kering jika terkena noda
+          - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+          - Buka cover bantal sandaran lalu jemur dan angin-anginkan
+
+          Produk yang Dikirim:
+          1 Buah Sofa + Bonus Bantal Sandaran + Kantong Pocket T Organizer
+
+          Ukuran:
+          180 x 90 x75 cm
+
+          Apa Bedanya Shizu Standar vs Premium?
+          Shizu Standar
+          * Dudukannya paten
+          * Pegas menggunakan Zigzag
+          * Dimensi 2 seater 180*90*75 cm
+
+          Shizu Premium
+          * Dudukannya Lepasan (terdapat resleting pada kain dudukan sehingga kain bisa dibuka dan dicuci)
+          * Pegas menggunakan pocket spring/ ulir sehingga lebih empuk
+          * Dimensi 2 seater 180*90*75 cm (lebih lebar 10cm dibanding shizu standar)
+
+          Estimasi Produk Pre Order 2-3 minggu.
+          (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+          Catatan:
+          WAJIB tanyakan stok atau variasi produk sebelum membeli.
+
+          Garansi:
+          3 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+          Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk . Silahkan hubungi admin melalui fitur chat untuk mendapatkan informasi terkait gratis ongkir dan subsidi ongkir ke kotamu !
+
+          (Silakan pilih pengiriman menggunakan Kargo)`
   },
   {
     id: "GEJA-STO-001",
