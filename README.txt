@@ -4,6 +4,6 @@ Landing page simpel dengan file berikut:
 - katalog.html: halaman katalog seluruh produk
 - style.css: tampilan dan responsive
 - script.js: data produk, pencarian, filter, sorting, modal, WhatsApp
-- geja-logo.png: logo Geja
+- geja-logo.svg: logo Geja
 
 Beranda memiliki tombol “Lihat Semua Produk” di bagian akhir Produk Pilihan yang menuju katalog.html.
