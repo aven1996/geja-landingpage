@@ -88,8 +88,11 @@ const products = [
     size: "145 x 80 x 88 cm",
     shopee: "https://shopee.co.id/Geja-Sofa-2-Seater-Pillo-Minimalis-Modern-Aesthetic-i.20077758.53317934399?extraParams=%7B%22display_model_id%22%3A108799951173%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa1.webp",
+      "images/sofa2.webp",
+      "images/sofa3.webp",
+      "images/sofa4.webp",
+      "images/sofa5.webp"
     ],
     desc: `Geja - Sofa 2 Seater Pillo Minimalis Modern Japandi Aesthetic
 
@@ -142,20 +145,55 @@ const products = [
             Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk`
   },
   {
-    id: "GEJA-KUR-002",
-    name: "Lounge Chair Nami",
-    cat: "Kursi",
+    id: "GEJA-004",
+    name: "Geja - Sofa 1 Seater Pillo Single Chair Minimalis Aesthetic",
+    cat: "Sofa",
     brand: "Geja Furniture",
-    price: 1650000,
-    material: "Fabric + kayu",
-    color: "Sand",
-    size: "72 × 78 × 82 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456792",
+    price: 3399000,
+    material: "Pelapis Kain Mebel",
+    color: "Milk",
+    size: "85 x 77 x 88  cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-1-Seater-Pillo-Single-Chair-Minimalis-Aesthetic-i.20077758.52217934538?extraParams=%7B%22display_model_id%22%3A316518919026%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa2_1.webp",
+      "images/sofa2_2.webp",
+      "images/sofa2_3.webp",
+      "images/sofa2_4.webp"
     ],
-    desc: "Kursi lounge untuk membaca dan menikmati waktu santai."
+    desc: `Geja - Sofa 1 Seater Pillo Single Chair Minimalis Aesthetic
+
+            Kursi sofa minimalis ini dirancang dengan desain yang ergonomis dan juga stylish. Desain kaki model silinder dari sofa santai ini dirancang menggunakan material berkualitas sehingga begitu kokoh. Hunian pun terasa lebih modern dan juga aesthetic.
+
+            Ukuran produk:
+            85 x 77 x 88 cm
+
+            Proses Perawatan:
+            - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+            - Segera lap menggunakan tisu atau kain kering jika terkena noda
+            - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+
+            Produk yang Dikirim:
+            1 Buah Sofa
+
+            Material:
+            - Tekstur halus suede premium
+            - Busa empuk royam foam grade A
+            - Menggunakan 100% kayu solid high quality
+
+            Kenyamanan Maksimal:
+            Dudukan empuk dengan kepadatan busa tinggi, nyaman digunakan untuk:
+            - Bersantai
+            - Membaca buku
+            - Sebagai penambah dekorasi ruang tamu
+
+            Cocok Diletakkan di:
+            - Ruang Tamu
+            - Kamar Tidur
+            - Studio Foto
+            - Coffee Shop
+
+            Estimasi Produk Pre Order 1-2 minggu.
+            (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)`
   },
   {
     id: "GEJA-MEI-001",
@@ -321,6 +359,22 @@ const products = [
 
 const $ = (selector, root=document) => root.querySelector(selector);
 const $$ = (selector, root=document) => [...root.querySelectorAll(selector)];
+const modalDescription = $("#modalDesc");
+const modalDescriptionToggle = document.createElement("button");
+modalDescriptionToggle.type = "button";
+modalDescriptionToggle.className = "modal-description-toggle";
+modalDescriptionToggle.setAttribute("aria-controls", "modalDesc");
+modalDescriptionToggle.setAttribute("aria-expanded", "false");
+modalDescriptionToggle.textContent = "Baca selengkapnya";
+modalDescriptionToggle.hidden = true;
+modalDescription.insertAdjacentElement("afterend", modalDescriptionToggle);
+modalDescriptionToggle.addEventListener("click", () => {
+  const expanded = modalDescriptionToggle.getAttribute("aria-expanded") === "true";
+  modalDescription.classList.toggle("is-collapsed", expanded);
+  modalDescription.classList.toggle("is-expanded", !expanded);
+  modalDescriptionToggle.setAttribute("aria-expanded", String(!expanded));
+  modalDescriptionToggle.textContent = expanded ? "Baca selengkapnya" : "Tampilkan lebih sedikit";
+});
 const rupiah = n => new Intl.NumberFormat("id-ID", {style:"currency", currency:CONFIG.currency, maximumFractionDigits:0}).format(n);
 let currentCategory = "Semua";
 let sortMode = "latest";
@@ -528,12 +582,18 @@ function openModal(id, updateUrl=true) {
   $("#modalName").textContent = p.name;
   setModalImage(0);
   $("#modalPrice").textContent = rupiah(p.price);
-  $("#modalDesc").textContent = p.desc;
+  modalDescription.textContent = p.desc;
+  modalDescription.classList.add("is-collapsed");
+  modalDescription.classList.remove("is-expanded");
+  modalDescriptionToggle.hidden = true;
+  modalDescriptionToggle.textContent = "Baca selengkapnya";
+  modalDescriptionToggle.setAttribute("aria-expanded", "false");
   $("#modalSpec").innerHTML = `<div><b>Material</b><span>${escapeHtml(p.material)}</span></div><div><b>Warna</b><span>${escapeHtml(p.color)}</span></div><div><b>Ukuran</b><span>${escapeHtml(p.size)}</span></div>`;
   $("#modalShopee").href = shopeeUrl(p);
   $("#modalContact").href = whatsappUrl(p);
   $("#modalShare").onclick = () => shareProduct(p);
   $("#modal").classList.add("open");
+  modalDescriptionToggle.hidden = modalDescription.scrollHeight <= modalDescription.clientHeight + 1;
   document.body.classList.add("modal-open");
   $("#modalClose").focus();
   if (updateUrl) history.replaceState(null,"",`${location.pathname}${location.search}#produk-${encodeURIComponent(p.id)}`);
