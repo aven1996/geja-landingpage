@@ -383,52 +383,157 @@ const products = [
           (Silakan pilih pengiriman menggunakan Kargo)`
   },
   {
-    id: "GEJA-STO-001",
-    name: "Cabinet Raka",
-    cat: "Storage",
+    id: "GEJA-008",
+    name: "Geja - Standing Mirror Pebble / Cermin Minimalis Lonjong Atas Full Body Aesthetic",
+    cat: "Cermin",
     brand: "Geja Furniture",
-    price: 3190000,
-    material: "Wood",
-    color: "Walnut",
-    size: "100 × 45 × 120 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456796",
+    price: 900000,
+    material: "Kain Beludru, Plywood, Kaca",
+    color: "-",
+    size: "160 x 60 cm",
+    shopee: "https://shopee.co.id/Geja-Standing-Mirror-Pebble-Cermin-Minimalis-Lonjong-Atas-Full-Body-Aesthetic-i.20077758.53867850734?extraParams=%7B%22display_model_id%22%3A431510833041%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=85"
+      "images/cermin1_1.webp",
+      "images/cermin1_2.webp",
+      "images/cermin1_3.webp"
     ],
-    desc: "Storage tertutup untuk menjaga ruang tetap rapi."
+    desc: `Wujudkan sudut kamar yang rapi dan estetik dengan Cermin Lonjong Atas Full Body dari Geja. Desainnya modern minimalis yang elegan, memberi kesan luas dan bersih—teman setia untuk ritual harian dan momen OOTD.
+
+      Keunggulan Utama
+      - Full body aesthetic: refleksi satubadan yang membantu styling dan penataan penampilan.
+      - Desain kekinian tanpa norak: mudah dipadukan dengan berbagai gaya ruangan.
+      - Material premium: 100% asli kayu jati, frame high quality, dan penyangga kokoh.
+      - Kaca dinding untuk hasil tampilan yang rapi dan fungsional.
+
+      Desain & Material
+      - Bahan: 100% asli kayu jati, frame high quality, penyangga kokoh.
+      - Kaca: kaca dinding.
+      - Detail: dilengkapi kain pelapis yang lembut untuk sentuhan lebih nyaman.
+
+      Ukuran & Bentuk
+      - Ukuran cermin: 160 x 60 cm.
+      - Bentuk cermin: persegi panjang.
+
+      Perawatan & Penempatan
+      - Gunakan vacuum cleaner dengan nozzle brush halus.
+      - Jika terkena noda, jangan digosok secara kasar; bersihkan dengan kain bersih + sedikit air hangat + sedikit sabun cair, lalu keringkan dengan tisu kering.
+      - Hindari paparan sinar matahari langsung.
+      - Jangan letakkan di dekat kamar mandi basah/area lembab untuk menghindari jamur.
+      - Beri celah 1–2 cm di belakang cermin agar sirkulasi udara tetap lancar.
+
+      Pengiriman & Catatan Penting
+      - Produk yang dikirim: 1 buah standing mirror.
+      - Estimasi pre-order: 1-2 minggu (jika produksi lebih cepat, akan diinformasikan via chat).
+      - Catatan harga: Harga di aplikasi hanya untuk pengiriman resi; WAJIB konfirmasi sebelum membeli karena produk dikirim menggunakan ekspedisi toko.
+      - Gratis ongkir ke wilayah Jawa (sesuai area yang tercantum); di luar area tersebut dapat subsidi ongkir—silakan hubungi admin via chat untuk info lengkap.`
   },
   {
-    id: "GEJA-STO-002",
-    name: "Rak Buku Nara",
-    cat: "Storage",
+    id: "GEJA-009",
+    name: "Geja - Sofa Shizu 3 Seater Sudut Premium Anti Cakar Minimalis Modern Aesthetic",
+    cat: "Sofa",
     brand: "Geja Furniture",
-    price: 1890000,
-    material: "Kayu",
-    color: "Natural",
-    size: "80 × 35 × 180 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456797",
+    price: 12099000,
+    material: "Kayu Jati, Kain Anti Cakar, Busa Royal Foam Premium",
+    color: "-",
+    size: "250 x 90 x 75 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Shizu-3-Seater-Sudut-Premium-Anti-Cakar-Minimalis-Modern-Aesthetic-i.20077758.52467890925?extraParams=%7B%22display_model_id%22%3A259345487477%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa6_1.webp",
+      "images/sofa6_2.webp",
+      "images/sofa6_3.webp",
+      "images/sofa6_4.webp",
+      "images/sofa6_5.webp",
+      "images/sofa6_6.webp"
     ],
-    desc: "Rak terbuka untuk buku, dekorasi, dan koleksi favorit."
+    desc: `Geja - Sofa Shizu 3 Seater Sudut Premium Anti Cakar Cocok Untuk Nonton Netflix , Hangout Keluarga , hingga WFH di Rumah.
+
+    Waktunya bikin rumah makin aesthetic ala Pinterest modal Sofa Shizu dari Geja yuk! Udah banyak influencer home decor hingga beberapa artis ternama yang pakai Sofa Shizu nih gaes! Checkout sekarang yuk buat mempercantik hunianmu.
+
+    Material:
+    - Rangka kaki asli 100% asli kayu jati
+    - Kain anti cakar* (kucing)
+    - Busa royal foam premium
+    - Dilengkapi anti slip, dll.
+
+    Bonus:
+    - 3 bantal sandaran minimalis
+    - 1 kantong pocket organizer
+    - bebas pilih finishing kaki kayu (silakan chat admin)
+
+    Proses Perawatan:
+    - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+    - Segera lap menggunakan tisu atau kain kering jika terkena noda
+    - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+    - Buka cover bantal sandaran lalu jemur dan angin-anginkan
+
+    Produk yang Dikirim:
+    1 Buah Sofa + 1 Puff Kotak + Bonus Bantal Sandaran +
+    Kantong Pocket Organizer
+
+    Ukuran Sofa:
+    250 x 90 x 75 cm
+
+    Ukuran Puff Kotak:
+    80 × 90 x 30 cm
+
+    Apa Bedanya Shizu Standar vs Premium?
+
+    Shizu Standar
+    * Dudukannya paten
+    * Pegas menggunakan Zigzag
+    * Dimensi 3 seater 250*80*75 cm
+
+    Shizu Premium
+    * Dudukannya Lepasan (terdapat resleting pada kain dudukan sehingga kain bisa dibuka dan dicuci)
+    * Pegas menggunakan pocket spring/ ulir sehingga lebih empuk
+    * Dimensi 3 seater 250*90*75 cm (lebih lebar 10cm
+    dibanding shizu standar)
+
+    Estimasi Produk Pre Order 2-3 minggu.
+    (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+    Catatan:
+    WAJIB tanyakan stok atau variasi produk sebelum membeli.
+
+    Garansi:
+    1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+    Dapatkan gratis ongkir ke wilayah Jawa`
   },
   {
-    id: "GEJA-KAM-001",
-    name: "Bed Frame Rumi",
-    cat: "Kamar Tidur",
+    id: "GEJA-010",
+    name: "Geja - Lampu Tidur Bonsai / Lampu Hias 3D Malam Hari Model Tanaman Dekorasi",
+    cat: "Lampu",
     brand: "Geja Furniture",
-    price: 4350000,
-    material: "Kayu",
-    color: "Oak",
-    size: "160 × 200 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456798",
+    price: 280000,
+    material: "Plastik",
+    color: "-",
+    size: "20 x 15.5 x 23.5 cm",
+    shopee: "https://shopee.co.id/Geja-Lampu-Tidur-Bonsai-Lampu-Hias-3D-Malam-Hari-Model-Tanaman-Dekorasi-i.20077758.45967770687?extraParams=%7B%22display_model_id%22%3A311502805991%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1538688423619-a81d3f23454b?auto=format&fit=crop&w=1000&q=85"
+      "images/lampu3_1.webp",
+      "images/lampu3_2.webp",
+      "images/lampu3_3.webp",
+      "images/lampu3_4.webp",
+      "images/lampu3_5.webp",
+      "images/lampu3_5.webp"
     ],
-    desc: "Rangka tempat tidur dengan karakter minimalis dan hangat."
+    desc: `Geja Lamp - Lampu Tidur Bonsai / Lampu Tidur 3D Malam Hari Model Tanaman Dekorasi Hias
+
+          Ukuran :
+          20 x 15.5 x 23.5 cm
+
+          Dilengkapi dengan :
+          Remote Lampu 
+
+          Fitur :
+          LED Ganti Warna
+
+          Cocok untuk :
+          Dekorasi Unik
+          Hadiah
+          Kado
+
+          Pre Oder (PO) : 3-5 Hari`
   },
   {
     id: "GEJA-KAM-002",
