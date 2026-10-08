@@ -536,20 +536,57 @@ const products = [
           Pre Oder (PO) : 3-5 Hari`
   },
   {
-    id: "GEJA-KAM-002",
-    name: "Bedside Table Kira",
-    cat: "Kamar Tidur",
+    id: "GEJA-011",
+    name: "Geja - Sofa Bed Becca Reclining Minimalis Modern / Sofa Bed Dekorasi Minimalis",
+    cat: "Sofa",
     brand: "Geja Furniture",
-    price: 925000,
-    material: "Kayu",
-    color: "Natural",
-    size: "45 × 40 × 50 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456799",
+    price: 2499000,
+    material: "Busa Rebondid, Kain Midili, Kayu Jati Perhutani, Kayu Solid, PVC",
+    color: "Coklat",
+    size: "180 x 100 x 35 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Bed-Becca-Reclining-Minimalis-Modern-Sofa-Bed-Dekorasi-Minimalis-i.20077758.44767875479?extraParams=%7B%22display_model_id%22%3A411510724908%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1538688423619-a81d3f23454b?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa7_1.webp",
+      "images/sofa7_2.webp",
+      "images/sofa7_3.webp",
+      "images/sofa7_4.webp",
+      "images/sofa7_5.webp",
+      "images/sofa7_6.webp",
+      "images/sofa7_7.webp",
+      "images/sofa7_8.webp",
+      "images/sofa7_9.webp"
     ],
-    desc: "Nakas ringkas untuk kebutuhan di samping tempat tidur."
+    desc: `Unik dan fungsional untuk apartemen kecil dan ruang tamu minimalis. Geja Sofa Bed Becca Reclining menghadirkan kenyamanan maksimal dengan 3 posisi reclining (duduk, rebah, tidur) yang smooth—ideal untuk nonton Netflix bareng keluarga atau tamu yang menginap dadakan.
+
+    Fitur Utama
+    - 3 Posisi Reclining: Duduk, Rebah, Tidur; transisi mulus berkat engsel reclining yang kokoh.
+    - Dual Fungsi 2-in-1: Cepat berubah dari sofa santai ke tempat tidur tanpa ribet.
+    - Material Berkualitas: Busa royal foam premium dengan kepadatan tinggi (high density foam) yang empuk namun menopang tubuh dengan baik, serta kain high durability yang lembut di kulit dengan sirkulasi udara baik.
+    - Rangka Kokoh: Kaki 100% kayu jati perhutani (kayu solid) dengan finishing natural, terasa hangat dan kokoh.
+    - Anti Slip: Dilengkapi anti slip untuk penggunaan lebih stabil.
+
+    Desain & Peruntukan
+    - Gaya Minimalis Modern/Japandi dengan sentuhan industrial; kaki kayu solid memberi nuansa hangat dan rapi di berbagai tema ruangan.
+    - Cocok untuk apartemen, kosan, kamar tidur, ruang tamu kecil, ruang keluarga, dan tamu yang menginap dadakan.
+
+    Ukuran & Kapasitas
+    - Dimensi (P x L x T): 180 x 100 x 35 cm
+    - Jumlah tempat duduk : 2
+
+    Perawatan
+    - Bersihkan debu/bulu menggunakan vacuum cleaner.
+    - Segera lap dengan tisu/kain kering jika terkena noda; hindari menggosok terlalu keras agar serat kain tetap awet.
+    - Buka cover bantal sandaran lalu jemur dan angin-anginkan.
+
+    Garansi & Layanan
+    - Garansi 12 bulan (garansi produsen): busa, kerangka, serta kena rayap diganti 100% baru.
+    - Estimasi pre order 2–3 minggu; jika produksi lebih cepat akan diinformasikan via chat admin.
+
+    Catatan Pembelian & Pengiriman
+    - Wajib tanya stok atau variasi produk sebelum membeli.
+    - Gratis ongkir ke wilayah Jawa untuk semua produk (*); pilih pengiriman menggunakan Kargo. Area gratis ongkir: DIY (Kota Yogyakarta, Bantul, Sleman, Gunung Kidul), Jateng (Klaten, Solo/Surakarta, Boyolali, Salatiga, Karanganyar, Wonogiri, Magelang, Semarang, Demak, Kudus, Wonosobo, Kebumen, Purworejo, Purwokerto, Banyumas, Banjarnegara), Jatim (Pacitan, Ngawi), dan se-Jawa.
+    - Di luar area tersebut akan dikenakan subsidi ongkir; silakan hubungi admin via chat untuk info ongkir ke kotamu.
+    - TRANSAKSI DI JAMIN AMAN. Mau datang langsung ke toko juga bisa—wajib chat sebelum membeli.`
   },
   {
     id: "GEJA-SOF-003",
