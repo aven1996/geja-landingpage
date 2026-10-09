@@ -815,6 +815,179 @@ const products = [
             WAJIB tanyakan stok atau variasi produk sebelum membeli.
             Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk
             (Silakan pilih pengiriman menggunakan Kargo)`
+  },
+  {
+    id: "GEJA-016",
+    name: "Geja - Sofa Nagari 2 Seater Sudut Japandi Minimalis Modern",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 3649000,
+    material: "Kayu Mahoni, Spons, Kain, Spring, Rangka Kayu Jati, Suede",
+    color: "-",
+    size: "150 x 80 x 70 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Nagari-2-Seater-Sudut-Japandi-Minimalis-Modern-i.20077758.49668080775?extraParams=%7B%22display_model_id%22%3A376527047125%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa10_1.webp",
+      "images/sofa10_2.webp",
+      "images/sofa10_3.webp",
+      "images/sofa10_4.webp",
+      "images/sofa10_5.webp",
+      "images/sofa10_6.webp",
+      "images/sofa10_7.webp",
+      "images/sofa10_8.webp",
+      "images/sofa10_9.webp"
+    ],
+    desc: `Sofa sudut 2 seater sudut dengan sentuhan Japandi modern minimalis yang menghadirkan nuansa hangat dan nyaman. Busa empuk royal foam premium, rangka kayu pinus solid, dan kain high durability membuatnya siap menemani maraton film, ngopi sore, hingga waktu santai bersama keluarga.
+
+    Desain & Gaya
+    - Sudut 2 seater dengan puff/ottoman yang dapat dipindah, fleksibel mengatur tata letak di sisi kanan/kiri sesuai kebutuhan.
+    - Nuansa minimalis modern dengan tampilan elegan yang mudah dipadukan berbagai interior.
+    - Cocok untuk ruang tamu, ruang keluarga, apartemen, maupun kamar.
+
+    Kenyamanan & Kualitas
+    - Busa empuk royal foam premium dengan bantalan tebal untuk bersantai lama.
+    - Rangka 100% kayu pinus solid, kokoh untuk penggunaan jangka panjang.
+    - Kain high durability untuk ketahanan lebih baik.
+    - Dilengkapi anti-slip agar tidak mudah bergeser saat diduduki (lebih stabil).
+
+    Isi Paket
+    - 1 buah sofa sudut 2 seater
+    - 1 puff kotak
+    - Bonus: 2 bantal sandaran minimalis + 1 pocket organizer
+
+    Ukuran & Material
+    - Sofa: 150 x 80 x 75 cm
+    - Puff: 60 x 90 x 75 cm
+    - Material: rangka kayu pinus solid; busa royal foam premium; kain high durability; anti-slip
+
+    Garansi & Layanan
+    - Garansi: 1 tahun (busa, kerangka; jika kena rayap diganti 100% baru).
+    - Pre-order estimasi: 2–3 minggu (jika produksi lebih cepat, admin akan menginformasikan via chat).
+
+    Catatan & Pengiriman
+    - Wajib tanya stok/variasi sebelum membeli.
+    - Gratis ongkir ke wilayah Jawa (pilih pengiriman Kargo). Area gratis ongkir: DIY (Kota Yogyakarta, Bantul, Sleman, Gunung Kidul), Jateng (Klaten, Solo/Surakarta, Boyolali, Salatiga, Karanganyar, Wonogiri, Magelang, Semarang, Demak, Kudus, Wonosobo, Kebumen, Purworejo, Purwokerto, Banyumas, Banjarnegara), Jatim (Pacitan, Ngawi), serta se-Jawa*.
+
+    Perawatan Singkat
+    - Bersihkan debu/bulu hewan dengan vacuum cleaner.
+    - Segera lap dengan tisu/kain kering jika terkena noda; hindari menggosok terlalu keras agar serat kain tetap awet.
+    - Buka cover bantal sandaran lalu jemur dan angin-anginkan.
+
+    Informasi Tambahan
+    - Masa garansi: 12 bulan (Garansi Produsen)
+    - Koleksi barang antik: Tidak
+    - Furniture lipat: Tidak
+    - Produk custom: Tidak`
+  },
+  {
+    id: "GEJA-017",
+    name: "Geja - Sofa Bed Kobe Sasmaya 6 Seater Minimalis Cocok Untuk Tiduran / Sofa Bed Kobe Sasmaya 6 Seater Ruang Tamu Minimalis",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 9246000,
+    material: "Bambu, Canvas, High Density Foam, Kayu, Rangka Kayu Jati",
+    color: "-",
+    size: "220 x 155 x 65 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Bed-Kobe-Sasmaya-6-Seater-Minimalis-Cocok-Untuk-Tiduran-Sofa-Bed-Kobe-Sasmaya-6-Seater-Ruang-Tamu-Minimalis-i.20077758.50567839879?extraParams=%7B%22display_model_id%22%3A441510563229%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa11_1.webp",
+      "images/sofa11_2.webp",
+      "images/sofa11_3.webp",
+      "images/sofa11_4.webp",
+      "images/sofa11_5.webp",
+      "images/sofa11_6.webp"
+    ],
+    desc: `Rehat tanpa ribet di ruang tamu. Sofa Bed Kobe Sasmaya 6 seater menghadirkan kenyamanan yang memeluk—nyaman untuk tiduran, menonton, hingga membaca. Desain minimalis modern yang rapi, ideal untuk ruang tamu keluarga dan gaya Japandi.
+
+      Kenapa Anda akan menyukainya
+      - Multifungsi: bisa jadi tempat duduk dan tempat tidur (sofa bed) untuk tiduran kapan saja.
+      - Nyaman untuk tiduran: dilengkapi busa royal foam premium.
+      - Tahan cakar: kain anti cakar untuk kucing dan anjing.
+      - Anti slip: membantu sofa lebih stabil saat digunakan.
+      - Bonus: bantal sandaran minimalis + 1 pocket organizer.
+
+      Desain & Material
+      - Gaya: modern minimalis, cocok untuk ruang tamu keluarga.
+      - Bahan: rangka kayu jati, bambu, dan canvas.
+      - Rangka kaki high durability untuk penggunaan harian.
+
+      Ukuran & Kapasitas
+      - Ukuran: 220 x 155 x 65 cm.
+      - Kapasitas: 6 seater.
+
+      Perawatan
+      - Bersihkan debu/bulu hewan menggunakan vacuum cleaner.
+      - Segera lap dengan tisu/kain kering jika terkena noda.
+      - Hindari menggosok kain terlalu keras agar serat tetap awet.
+      - Buka cover bantal sandaran, lalu jemur dan angin-anginkan.
+
+      Pengiriman & Garansi
+      - Gratis ongkir ke wilayah Jawa (pilih pengiriman menggunakan Kargo).
+      - Area gratis ongkir: DIY (Kota Yogyakarta, Bantul, Sleman, Gunung Kidul); Jateng (Klaten, Solo/Surakarta, Boyolali, Salatiga, Karanganyar, Wonogiri, Magelang, Semarang, Demak, Kudus, Wonosobo, Kebumen, Purworejo, Purwokerto, Banyumas, Banjarnegara); Jatim (Pacitan, Ngawi); se-Jawa*. Di luar area tersebut dapat subsidi ongkir—hubungi admin via chat untuk detail.
+      - Garansi 3 tahun (busa, kerangka; kena rayap diganti 100% baru).
+
+      Catatan Penting
+      - WAJIB tanyakan stok atau variasi produk sebelum membeli.
+      - Estimasi pre-order 3–4 minggu (jika produksi lebih cepat akan diinformasikan via chat).
+      - Wajib chat sebelum membeli.`
+  },
+  {
+    id: "GEJA-018",
+    name: "Geja - Sofa Monza 2 Seater Sandaran Adjustable Minimalis Modern / Sofa Minimalis 3 Orang",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 6499000,
+    material: "Kayu Jati, Busa Royal Foam Premium, Kain High Durability",
+    color: "-",
+    size: "180 x 80 x 75 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Monza-2-Seater-Sandaran-Adjustable-Minimalis-Modern-Sofa-Minimalis-3-Orang-i.20077758.47967863785?extraParams=%7B%22display_model_id%22%3A361510501376%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa12_1.webp",
+    ],
+    desc: `Geja - Sofa Monza 2 Seater Sandaran Adjustable Minimalis
+
+            Modern / Sofa Minimalis 2 Orang 
+            Satu sofa, banyak gaya ! Siapa lagi kalau Sofa Monza 2
+            Seater dari Geja ? Dengan sandaran tangan dan punggungnya yang bisa dibongkar-pasang,
+            memungkinkanmu buat ngatur sesuka hati deh! Mau duduk, selonjoran, atau bahkan rebahan buat tidur siang ? Bisa banget dong !
+
+            Bonus Spesial:
+            - Gratis 2 guling / bantal cushion minimalis (dengan warna senada dengan sofa)
+            - Gratis 1 kantong remot pocket organizer
+            - Bebas pilih warna kayu kaki sofa (tersedia 5 pilihan warna kaki sofa)
+
+            Proses Perawatan:
+            - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+            - Segera lap menggunakan tisu atau kain kering jika terkena noda
+            - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+
+            Material:
+            - Rangka kaki 100% asli kayu jati + besi yang kokoh
+            - Kain high durability
+            - Busa empuk royal foam premium
+            - Dilengkapi anti slip, dll.
+
+            Ukuran Sota:
+            180x80x75 cm (Pas untuk ruang tamu mungil maupun besar)
+
+            Garansi:
+            1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+            Kenapa Harus Beli Sofa 2 Seater Monza?
+
+            - Busa Premium:
+            Dudukannya tebal dan empuk sehingga cocok untuk bersantai lama-lama.
+
+            - Kain High Durability:
+            Menggunakan kain yang mempunyai high durability sehingga bisa awet dan tahan lama.
+            - Dilengkapi dengan fitur anti-slip :
+            Tidak mudah bergeser ketika diduduki dan membuatnya lebih stabil (penting untuk kenyamanan & keamanan)
+            - Sandarannya Adjustable
+            Sofa ini mempunyai sandaran belakang dan sandaran tangan yang bisa dibongkar-pasang sesuai kebutuhan.
+            Mau jadi sofa buat selonjoran, duduk, hingga tiduran pun bisa!
+
+            Estimasi Produk Pre Order 1-2 minggu.
+            (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)`
   }
 ];
 
