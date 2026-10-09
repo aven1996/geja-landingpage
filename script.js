@@ -80,7 +80,7 @@ const products = [
   {
     id: "GEJA-003",
     name: "Geja - Sofa 2 Seater Pillo Minimalis Modern Aesthetic",
-    cat: "Kursi",
+    cat: "Sofa",
     brand: "Geja Furniture",
     price: 5449000,
     material: "Pelapis Kain Mebel",
@@ -535,6 +535,7 @@ const products = [
 
           Pre Oder (PO) : 3-5 Hari`
   },
+
   {
     id: "GEJA-011",
     name: "Geja - Sofa Bed Becca Reclining Minimalis Modern / Sofa Bed Dekorasi Minimalis",
@@ -589,52 +590,231 @@ const products = [
     - TRANSAKSI DI JAMIN AMAN. Mau datang langsung ke toko juga bisa—wajib chat sebelum membeli.`
   },
   {
-    id: "GEJA-SOF-003",
-    name: "Sofa Bed Hana",
+    id: "GEJA-12",
+    name: "Geja - Standing Mirror Arch / Cermin Persegi Panjang Atas Full Body Aesthetic Minimalis Modern",
+    cat: "Cermin",
+    brand: "Geja Furniture",
+    price: 900000,
+    material: "Kaca, Kayu, Fiber, Karet/Rubber, MDF",
+    color: "Natural",
+    size: "200 × 90 × 85 cm",
+    shopee: "https://shopee.co.id/Geja-Standing-Mirror-Arch-Cermin-Persegi-Panjang-Atas-Full-Body-Aesthetic-Minimalis-Modern-i.20077758.55168107365?extraParams=%7B%22display_model_id%22%3A386531818194%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/cermin2_1.webp",
+      "images/cermin2_2.webp",
+      "images/cermin2_3.webp"
+    ],
+    desc: `Geja - Standing Mirror Arch / Cermin Persegi Panjang Atas Full Body Aesthetic
+
+            Waktunya bikin OOTD jadi makin seru dan aesthetic dengan cermin dari Ajeg ini yuk! Desainnya yang kekinian dan nggak norak tentunya bisa bikin ruanganmu jadi tambah naik kelas!
+            Nggak cuma kamu aja yang seneng, orang yang datang pun juga terpana ngeliatnya! Cek sekarang di showroom Geja dan chat admin langsung yaa!
+
+            Material:
+            - Penyangga yang kokoh
+            - Frame High Quality
+            - Dilengkapi kain pelapis yang lembut
+
+            Proses Perawatan:
+            - Gunakan vacuum cleaner dengan nozzle brush yang halus
+            - Jika terkena noda, jangan digosok secara kasar
+            - Bersihkan noda menggunakan kain bersih + sedikit air hangat + sedikit sabun cair
+            - Keringkan dengan tisu kering
+            - Hindari meletakkan cermin di paparan sinar matahari langsung
+            - Jangan letakkan di dekat kamar mandi basah / area lembab (Menghindari jamur)
+            - Beri sedikit celah 1-2 cm di belakang cermin supaya sirkulasi udara tetap lancar
+
+            Produk yang Dikirim:
+            1 Buah Standing Mirror
+
+            Ukuran Cermin:
+            160 x 60 cm
+
+            Estimasi Produk Pre Order 3-4 minggu.
+            (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+            Catatan:
+            Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk.
+            Silahkan hubungi admin untuk mendapatkan informasi terkait gratis ongkir dan subsidi ongkir di kotamu!`
+  },
+  {
+    id: "GEJA-013",
+    name: "Geja - Sofa Narumi 1 Seater Minimalis Modern Japandi",
     cat: "Sofa",
     brand: "Geja Furniture",
-    price: 4650000,
-    material: "Fabric",
-    color: "Grey",
-    size: "200 × 90 × 85 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456800",
+    price: 3249000,
+    material: "Kayu Jati Manium + Pelapis Kain Mebel",
+    color: "Ivory, Dark Grey, Cream, Dark Blue, Dark Brown, Black, Teak, Iguana, Grey",
+    size: "91 x 80 x 75 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Narumi-1-Seater-Minimalis-Modern-Japandi-i.20077758.57218111474?extraParams=%7B%22display_model_id%22%3A311532282182%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85"
+       "images/sofa8_1.webp",
+        "images/sofa8_2.webp",
+        "images/sofa8_3.webp",
+        "images/sofa8_4.webp",
+        "images/sofa8_5.webp",
+        "images/sofa8_6.webp",
+        "images/sofa8_7.webp",
+        "images/sofa8_8.webp",
+        "images/sofa8_9.webp"
     ],
-    desc: "Sofa yang dapat diubah menjadi tempat beristirahat."
+    desc: `Geja – Sofa Narumi 1 Seater Minimalis Modern Japandi
+
+            Sofa storage ini memadukan desain modern minimalis dengan fungsi penyimpanan tersembunyi untuk membantu menjaga kerapian ruang tamu.
+
+            Ukuran produk:
+            90x80x75 cm
+
+            Bonus spesial:
+            - Bantal sandaran 1 pcs
+
+            Proses perawatan:
+            - Bersihkan debu, bulu, dan kotoran hewan menggunakan vacuum cleaner.
+            - Segera lap menggunakan tisu atau kain kering jika terkena noda.
+            - Hindari menggosok kain terlalu keras agar serat kain tetap awet.
+            - Buka cover bantal sandaran, lalu jemur dan angin-anginkan.
+
+            Produk yang dikirim:
+            1 Buah Sofa + Bonus Bantal Sandaran
+
+            Garansi:
+            1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+            Keunggulan produk:
+            - Hidden Storage Space: Kompartemen luas di bawah dudukan dapat digunakan untuk menyimpan bantal ekstra, selimut, mainan anak, hingga koleksi majalah agar tidak berantakan di ruangan.
+            - Desain Modern & Compact: Bentuknya yang clean cocok untuk gaya interior Japandi, industrial, maupun minimalis.
+            - Kain anti cakar: Dibalut kain anti cakar yang nyaman dan tahan lama, sehingga kamu tidak perlu khawatir terhadap cakaran kucing.
+            - Rangka kayu kokoh: Struktur terbuat dari 100% kayu solid sehingga cocok untuk penggunaan jangka panjang.
+
+            Material:
+            - Kain anti cakar* (kucing dan anjing)
+            - Busa empuk royal foam premium
+            - Rangka 100% dari kayu solid
+            - Dilengkapi anti slip
+
+            Estimasi Produk Pre Order:
+            2-3 minggu. Apabila produksi lebih cepat, informasi akan diberikan melalui chat oleh admin.
+
+            Catatan:
+            WAJIB menanyakan stok atau variasi produk sebelum membeli.
+            Gratis ongkir ke wilayah Jawa berlaku untuk semua produk . Silakan pilih pengiriman menggunakan Kargo.`
   },
   {
-    id: "GEJA-AKS-001",
-    name: "Floor Lamp Lio",
-    cat: "Aksesoris",
+    id: "GEJA-014",
+    name: "Geja - Bench Square Yori 6 Lipatan Kursi Bangku Minimalis Modern",
+    cat: "Kursi",
     brand: "Geja Furniture",
-    price: 895000,
-    material: "Metal + fabric",
-    color: "White",
-    size: "45 × 45 × 150 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456801",
+    price: 1249000,
+    material: "Kayu Pinus, Busa Royal Foam Premium, Kain High Durability",
+    color: "Flann, Forest Green, Maple Almond",
+    size: "120 x 45 x 40 cm",
+    shopee: "https://shopee.co.id/Geja-Bench-Square-Yori-6-Lipatan-Kursi-Bangku-Minimalis-Modern-i.20077758.43134568036?extraParams=%7B%22display_model_id%22%3A341531675957%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85"
+      "images/kursi1_1.webp",
+      "images/kursi1_2.webp",
+      "images/kursi1_3.webp",
+      "images/kursi1_4.webp",
+      "images/kursi1_5.webp",
+      "images/kursi1_6.webp",
+      "images/kursi1_7.webp"
     ],
-    desc: "Lampu lantai dengan karakter ringan untuk sudut baca dan ruang santai."
+    desc: `Geja - Bench Square Yori 6 Lipatan Kursi Bangku Serbaguna Minimalis Modern
+
+            Lagi nyari pemanis buat di ujung tempat tidur atau ruang tamu? Bench satu ini patut ditaruh di ruanganmu! Desainnya yang pakai detail (tufted vertical) bikin look ruanganmu langsung kelihatan mewah tapi tetep minimalis! Nggak cuma menang di visual aja, duduk di sini juga super nyaman karena pakai busa premium yang empuknya pas, jadi nggak gampang kempes! Kainnya pun lembut banget di kulit dan ngasih kesan elegan yang "mahal".
+
+            Ukuran Sofa Bench 6 Lipatan:
+            120x45x40 cm
+
+            Material:
+            - Rangka 100% asli kayu pinus
+            - Kain high durability
+            - Busa empuk royal foam premium, dll.
+
+            Kenapa Harus Beli Sofa Bench 6 Lipatan Yori?
+            - Busa Premium:
+            Dudukannya tebal dan empuk sehingga cocok untuk bersantai lama-lama.
+            - Kain High Durability:
+            Menggunakan kain yang mempunyai high durability sehingga bisa awet dan tahan lama.
+            - Rangka 100% Asli Kayu Pinus:
+            Materialnya yang kokoh dari kayu solid ini sangat cocok untuk penggunaan jangka panjang.
+            memakai kaos kaki sebelum berangkat.
+            - Area Foyer (Tempat Pakai Sepatu):
+            Paling cocok ditaruh dekat pintu masuk rumah. Jadi, tamu atau penghuni rumah punya tempat duduk yang nyaman saat memakai atau melepas sepatu.
+            - Kursi Tambahan di Ruang Tamu:
+            Kalau sofa utama sudah penuh saat arisan atau kumpul keluarga, bench ini bisa jadi penyelamat karena kapasitasnya bisa untuk 2-3 orang.
+
+            Garansi:
+            1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+            Estimasi Produk Pre Order 14-24 hari.
+            Jika estimasi produksi dan pengiriman lebih cepat maka akan diiformasikan oleh admin lebih lanjut melalui chat.
+
+            Catatan:
+            WAJIB tanyakan stok atau variasi produk sebelum membeli.
+            Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk
+            (Silakan pilih pengiriman menggunakan Kargo)`
   },
   {
-    id: "GEJA-AKS-002",
-    name: "Cushion Arlo",
-    cat: "Aksesoris",
+    id: "GEJA-015",
+    name: "Geja - Sofa Bench Square Yori 3 Lipatan Kursi Bangku",
+    cat: "Sofa",
     brand: "Geja Furniture",
-    price: 325000,
-    material: "Cotton",
-    color: "Blue Sand",
-    size: "45 × 45 cm",
-    shopee: "https://shopee.co.id/Geja-Furniture-i.123456789.123456802",
+    price: 799000,
+    material: "Kayu Pinus, Busa Royal Foam Premium, Kain High Durability",
+    color: "Flann, Forest Green, Maple Almond",
+    size: "60 x 45 x 40 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Bench-Square-Yori-3-Lipatan-Kursi-Bangku-i.20077758.58118106888?extraParams=%7B%22display_model_id%22%3A292971622399%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1000&q=85"
+      "images/sofa9_1.webp",
+      "images/sofa9_2.webp",
+      "images/sofa9_3.webp",
+      "images/sofa9_4.webp",
+      "images/sofa9_5.webp",
+      "images/sofa9_6.webp",
+      "images/sofa9_7.webp",
+      "images/sofa9_8.webp"
     ],
-    desc: "Bantal dekoratif untuk menambah aksen warna yang lembut pada ruang."
+    desc: `Geja - Bench Square Yori 3 Lipatan Kursi Bangku Serbaguna
+
+            Lagi nyari pemanis buat di ujung tempat tidur atau ruang tamu? Bench satu ini patut ditaruh di ruanganmu! Desainnya yang pakai detail garis-garis (tufted vertical) bikin look ruanganmu langsung kelihatan mewah tapi tetep minimalis!
+
+            Ukuran Sofa Bench 3 Lipatan:
+            60x45x40 cm
+
+            Material:
+            - Rangka 100% asli kayu pinus
+            - Kain high durability
+            - Busa empuk royal foam premium, dll.
+
+            Kenapa Harus Beli Sofa Bench 3 Lipatan Yori?
+            - Busa Premium:
+            Dudukannya tebal dan empuk sehingga cocok untuk bersantai lama-lama.
+
+            - Kain High Durability:
+            Menggunakan kain yang mempunyai high durability sehingga bisa awet dan tahan lama.
+
+            - Rangka 100% Asli Kayu Pinus:
+            Materialnya yang kokoh dari kayu solid ini sangat cocok untuk penggunaan jangka panjang.
+
+            Kenapa Kamu Wajib Beli Sofa Bench 3 Lipatan Yori?
+            - Sebagai Bed-End Bench (Pemanis Kamar Tidur):
+            Diletakkan di ujung tempat tidur. Fungsinya untuk menaruh selimut tambahan, pakaian yang baru disetrika, atau sekadar tempat duduk saat kamu memakai kaos kaki sebelum berangkat.
+
+            Area Foyer (Tempat Pakai Sepatu):
+            Paling cocok ditaruh dekat pintu masuk rumah. Jadi, tamu atau penghuni rumah punya tempat duduk yang nyaman saat memakai atau melepas sepatu.
+
+            - Kursi Tambahan di Ruang Tamu:
+            Kalau sofa utama sudah penuh saat arisan atau kumpul keluarga, bench ini bisa jadi penyelamat karena kapasitasnya bisa untuk 1 orang.
+
+            Garansi:
+            1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+            Estimasi Produk Pre Order 14-24 hari.
+            Jika estimasi produksi dan pengiriman lebih cepat maka akan diiformasikan oleh admin lebih lanjut melalui chat.
+
+            Catatan:
+            WAJIB tanyakan stok atau variasi produk sebelum membeli.
+            Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk
+            (Silakan pilih pengiriman menggunakan Kargo)`
   }
 ];
 
