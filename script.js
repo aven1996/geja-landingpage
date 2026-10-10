@@ -19,7 +19,10 @@ const products = [
     size: "13 x 13 x 8 cm",
     shopee: "https://shopee.co.id/Geja-Lampu-Tidur-ESC-tombol-keyboard-Lampu-Tidur-Hias-Aesthetic-LED-i.20077758.48667775191?extraParams=%7B%22display_model_id%22%3A411502112726%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "images/LAMPU.png","images/LAMPU (1).png", "images/LAMPU (2).png", "images/LAMPU (3).png"
+      "images/lampu1_1.webp",
+      "images/lampu1_2.webp",
+      "images/lampu1_3.webp",
+      "images/lampu1_4.webp"
     ],
     desc: `Geja - LAMP . Lampu Tidur ESC Tombol Keyboard Minimalis / Lampu Hias Aesthetic LED Dekorasi 
 
@@ -54,13 +57,11 @@ const products = [
     size: "40 x 20 x 30 cm",
     shopee: "https://shopee.co.id/Geja-Lampu-Tidur-Ulat-Minimalis-Lampu-Tidur-Hias-Aesthetic-LED-Dekorasi-i.20077758.49017765830?extraParams=%7B%22display_model_id%22%3A421502285363%2C%22model_selection_logic%22%3A3%7D",
     images: [
-      "images/LAMPU2.png",
-      "images/LAMPU2 (1).png",
-      "images/LAMPU2 (2).png",
-      "images/LAMPU2 (3).png",
-      "images/LAMPU2 (4).png",
-      "images/LAMPU2 (5).png",
-      "images/LAMPU2 (6).png"
+      "images/lampu2_1.webp",
+      "images/lampu2_2.webp",
+      "images/lampu2_3.webp",
+      "images/lampu2_4.webp",
+      "images/lampu2_5.webp"
     ],
     desc: `Geja Lampu Tidur Ulat Minimalis / Lampu Hias Aesthetic LED Dekorasi
 
@@ -943,6 +944,12 @@ const products = [
     shopee: "https://shopee.co.id/Geja-Sofa-Monza-2-Seater-Sandaran-Adjustable-Minimalis-Modern-Sofa-Minimalis-3-Orang-i.20077758.47967863785?extraParams=%7B%22display_model_id%22%3A361510501376%2C%22model_selection_logic%22%3A3%7D",
     images: [
       "images/sofa12_1.webp",
+      "images/sofa12_2.webp",
+      "images/sofa12_3.webp",
+      "images/sofa12_4.webp",
+      "images/sofa12_5.webp",
+      "images/sofa12_6.webp",
+      "images/sofa12_7.webp"
     ],
     desc: `Geja - Sofa Monza 2 Seater Sandaran Adjustable Minimalis
 
@@ -988,6 +995,434 @@ const products = [
 
             Estimasi Produk Pre Order 1-2 minggu.
             (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)`
+  },
+  {
+    id: "GEJA-019",
+    name: "Geja - Sofa Nagari 3 Seater Sudut Modern Minimalis Aesthetic",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 4699000,
+    material: "Kayu Pinus, Busa Royal Foam Premium, Kain High Durability",
+    color: "-",
+    size: "180 x 80 x 75 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Nagari-3-Seater-Sudut-Modern-Minimalis-Aesthetic-i.20077758.46268068123?extraParams=%7B%22display_model_id%22%3A267969239991%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa13_1.webp",
+      "images/sofa13_2.webp",
+      "images/sofa13_3.webp",
+      "images/sofa13_4.webp",
+      "images/sofa13_5.webp",
+      "images/sofa13_6.webp",
+      "images/sofa13_7.webp",
+      "images/sofa13_8.webp",
+      "images/sofa13_9.webp"
+    ],
+    desc: `Sentuhan mewah di ruang tamu minimalis. Sofa 3 seater sudut dengan busa empuk dan kain high durability menghadirkan kenyamanan beristirahat yang menenangkan—ideal untuk nonton film malam, baca buku, hingga waktu santai bersama keluarga.
+
+      Keunggulan Utama
+      - Desain sudut fleksibel: dilengkapi puft/ottoman yang dapat dipindah, bisa diletakkan di sisi kanan/kiri sesuai kebutuhan.
+      - Busa empuk premium: royal foam premium dengan duduk tebal dan empuk, nyaman untuk bersantai lama.
+      - Kain high durability: tahan lama dan awet digunakan.
+      - Anti-slip: tidak mudah bergeser saat diduduki, lebih stabil untuk kenyamanan dan keamanan.
+      - Rangka kokoh: 100% kayu pinus solid untuk penggunaan jangka panjang.
+
+      Apa yang Anda Dapatkan
+      - 1 buah sofa sudut 3 seater
+      - 1 puff/ottoman (kotak)
+      - Bonus 3 bantal sandaran minimalis
+      - Bonus 1 pocket organizer
+
+      Perawatan
+      - Bersihkan debu/bulu/kotoran hewan menggunakan vacuum cleaner.
+      - Segera lap dengan tisu/kain kering jika terkena noda; hindari menggosok terlalu keras agar serat kain tetap awet.
+      - Buka cover bantal sandaran, lalu jemur dan angin-anginkan.
+
+      Dimensi & Material
+      - Ukuran sofa: 180 x 80 x 75 cm
+      - Ukuran puff: 60 x 90 cm
+      - Material: rangka kayu pinus solid, kain high durability, busa royal foam premium
+      - Dilengkapi anti-slip
+
+      Garansi & Pengiriman
+      - Garansi: 1 tahun (busa, kerangka, dan kena rayap diganti 100% baru).
+      - Estimasi pre-order: 2–3 minggu (jika produksi lebih cepat, admin akan menginformasikan via chat).
+
+      Catatan Pembelian & Ongkir
+      - Wajib tanya stok atau variasi sebelum membeli.
+      - Gratis ongkir ke wilayah Jawa (pilih pengiriman menggunakan kargo). Area gratis ongkir: DIY (Yogyakarta, Bantul, Sleman, Gunung Kidul), Jateng (Klaten, Solo/Surakarta, Boyolali, Salatiga, Karanganyar, Wonogiri, Magelang, Semarang, Demak, Kudus, Wonosobo, Kebumen, Purworejo, Purwokerto, Banyumas, Banjarnegara), Jatim (Pacitan, Ngawi), dan Se-Jawa*. Di luar area tersebut dapat subsidi ongkir; hubungi admin via chat untuk info lengkap.`
+  },
+  {
+    id: "GEJA-020",
+    name: "Geja - Sofa 3 Seater Miko Minimalis / Sofa Empuk Minimalis 3 Orang",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 3899000,
+    material: "Kayu (Jati kombinasi Albasia), Kayu Sengon, Busa Royal Foam Premium",
+    color: "-",
+    size: "180 x 80 x 53 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-3-Seater-Miko-Minimalis-Sofa-Empuk-Minimalis-3-Orang-i.20077758.25148492167?extraParams=%7B%22display_model_id%22%3A421510402229%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa14_1.webp",
+      "images/sofa14_2.webp",
+      "images/sofa14_3.webp",
+      "images/sofa14_4.webp",
+      "images/sofa14_5.webp",
+      "images/sofa14_6.webp",
+      "images/sofa14_7.webp",
+      "images/sofa14_8.webp",
+      "images/sofa14_9.webp"
+    ],
+    desc: `Minimalis elegan untuk ruang tamu yang cozy dan rapi. Sofa 3 seater ini menghadirkan kenyamanan empuk yang pas—teman nonton film, baca buku sore, hingga momen kumpul keluarga terasa lebih nyaman.
+
+      Keunggulan Utama
+      - Desain timeless: gaya modern minimalis yang membuat ruang tampak lebih luas dan rapi.
+      - Kenyamanan maksimal: busa berkualitas tinggi yang empuk pas dan tidak mudah kempes.
+      - Warna netral yang elegan: balutan kain premium yang mudah dipadupadankan dengan berbagai dekorasi.
+      - Kualitas juara, harga ramah kantong: tampilan mewah ala interior hotel berbintang dengan harga terjangkau.
+
+      Spesifikasi Utama
+      - Model: Geja - Sofa 3 Seater
+      - Jumlah tempat duduk: 3 orang
+      - Gaya: Modern Minimalis
+      - Bahan: Kayu (jati kombinasi albasia), kayu sengon, busa
+      - Dimensi (P x L x T): 180 x 80 x 53 cm
+      - Perakitan: Sudah dirakit
+      - Produk custom: Ya
+
+      Bonus & Layanan
+      - Bonus spesial: 2 bantal peluk minimalis
+      - Garansi: 6 bulan
+
+      Catatan Penting
+      - Konfirmasi sebelum order (sesuai keterangan produk serupa)
+      - Estimasi produk pre-order 1-2 minggu ( Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin )
+
+      Informasi Tambahan
+      - Brand : GEJA
+      - Asal produk : Indonesia`
+  },
+  {
+    id: "GEJA-021",
+    name: "Geja - Standing Mirror Flow / Cermin Minimalis Full Body Aesthetic",
+    cat: "Cermin",
+    brand: "Geja Furniture",
+    price: 900000,
+    material: "Kaca, Dilengkapi kain pelapis yang lembut, Frame High Quality",
+    color: "-",
+    size: "160 x 60 cm",
+    shopee: "https://shopee.co.id/Geja-Standing-Mirror-Flow-Cermin-Minimalis-Full-Body-Aesthetic-i.20077758.47517870534?extraParams=%7B%22display_model_id%22%3A381510797278%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/cermin3_1.webp",
+      "images/cermin3_2.webp",
+      "images/cermin3_3.webp",
+      "images/cermin3_4.webp"
+    ],
+    desc: `Geja - Standing Mirror Flow / Cermin
+
+      Bergelombang Full Body Aesthetic
+      Waktunya bikin OOTD jadi makin seru dan aesthetic dengan cermin dari GEJA ini yuk ! Desainnya yang kekinian dan nggak norak tentunya bisa bikin ruanganmu jadi tambah naik kelas!
+      Nggak cuma kamu aja yang seneng, orang yang datang pun juga terpana ngeliatnya! Cek sekarang chat admin langsung yaa!
+
+      Material:
+      - Penyangga yang kokoh
+      - Frame High Quality
+      - Dilengkapi kain pelapis yang lembut
+
+      Proses Perawatan:
+      - Gunakan vacuum cleaner dengan nozzle brush yang halus
+      - Jika terkena noda, jangan digosok secara kasar
+      - Bersihkan noda menggunakan kain bersih + sedikit air hangat + sedikit sabun cair
+      - Keringkan dengan tisu kering
+      - Hindari meletakkan cermin di paparan sinar matahari langsung
+      - Jangan letakkan di dekat kamar mandi basah / area lembab (Menghindari jamur)
+      - Beri sedikit celah 1-2 cm di belakang cermin supaya sirkulasi udara tetap lancar
+
+      Produk yang Dikirim:
+      1 Buah Standing Mirror
+
+      Ukuran Cermin:
+      160x60 cm
+
+      Estimasi Produk Pre Order 1-2 minggu.
+      (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+      Catatan:
+      Harga yang tertera di aplikasi hanya untuk mengirimkan RESI (bukan produk karena produk dikirim menggunakan expedisi toko) jadi WAJIB tanyakan sebelum membeli.
+
+      Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk
+      (*). Berikut area gratis ongkir Rp0, - khusus untukmu:
+      - Area DIY: Kota Yogyakarta, Bantul, Sleman, Gunung Kidul.
+      - Area Jateng: Klaten, Solo, Surakarta, Boyolali, Salatiga, Karanganyar, Wonogiri, Magelang, Semarang, Demak, Kudus, Wonosobo, Kebumen, Purworejo, Purwokerto, Banyumas, Banjarnegara.
+      - Area Jatim: Pacitan, Ngawi.
+      - Area Lain: Se-Jawa*
+      Di luar area tersebut akan mendapatkan subsidi ongkir.
+
+      Silakan hubungi admin melalui fitur chat untuk mendapatkan informasi terkait gratis ongkir dan subsidi ongkir ke kotamu!
+      TRANSAKSI DI JAMIN AMAN. MAU DATANG LANGSUNG KE TOKO JUGA BISA WAJIB CHAT SEBELUM MEMBELI`
+  },
+  {
+    id: "GEJA-022",
+    name: "Geja - Sofa Kobe 3 Seater Sudut Variasi Premium Minimalis Modern",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 8699000,
+    material: "Bludur, Busa Royal Foam, Double Karet, Kanvas, Kayu Pinus",
+    color: "-",
+    size: "200 x 80 x 90 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Kobe-3-Seater-Sudut-Variasi-Premium-Minimalis-Modern-i.20077758.46818449608?extraParams=%7B%22display_model_id%22%3A336549542807%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa15_1.webp",
+      "images/sofa15_2.webp",
+      "images/sofa15_3.webp",
+      "images/sofa15_4.webp",
+      "images/sofa15_5.webp",
+      "images/sofa15_6.webp"
+    ],
+    desc: `Geja - Sofa Kobe 3 Seater Sudut Variasi Minimalis Modern Premium 
+
+      Yuk, bikin ruang tamu minimalis jadi makin aesthetic dengan Sofa Kobe dari Ajeg! Desainnya yang timeless bisa bikin hunianmu tampak elegan, berkualitas, dan nggak too much tentunya!
+
+      Bonus Spesial :
+      - Gratis 3 Bantal Sandaran (dengan warna senada dengan sota)
+      - Gratis 1 Kantong Pocket Organizer
+      - Bebas request warna kaki sofa (tersedia 5 pilihan warna)
+
+      Proses Perawatan:
+      - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+      - Segera lap menggunakan tisu atau kain kering jika terkena noda
+      - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+      - Buka cover bantal sandaran lalu jemur dan angin-anginkan
+
+      Produk yang Dikirim:
+      1 Buah Sofa + Puff Kotak + Bonus Bantal Sandaran + Kantong Pocket Organizer
+
+      Material:
+      - Rangka kaki sofa asli 100% asli kayu jati
+      - Kain anti cakar* (kucing dan anjing)
+      - Busa royal foam premium
+      - Dilengkapi anti slip, dil.
+
+      Ukuran Sofa:
+      200 x 80 x 90 cm (Pas untuk ruang tamu mungil maupun besar)
+
+      Ukuran Puff:
+      100 x 70 cm
+
+      Cocok diletakkan di :
+      - Apartemen berukuran kecil
+      - Ruang keluarga
+      - Ruang tamu
+      - Ruang santai
+      - Rumah minimalis
+      - Rumah sempit
+
+      Garansi : 1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+      Estimasi Produk Pre Order 3-4 minggu.
+      (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+      Catatan:
+      WAJIB tanyakan stok atau variasi produk sebelum membeli.
+      Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk. Harap menghubungi admin untuk mendapatkan gratis ongkir ke wilayahmu.
+      (Silakan pilih pengiriman menggunakan Kargo)`
+  },
+  {
+    id: "GEJA-023",
+    name: "Geja - Sofa Kobe 2 Seater Sudut Minimalis Modern Japandi",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 6249000,
+    material: "Kayu Pinus, Busa Royal Foam Premium, Kain High Durability",
+    color: "Black, Cream, Dark Blue, Dark Brown, Dark Grey, Iguana, Ivory, Teak",
+    size: "200 x 150 x 90 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Kobe-2-Seater-Sudut-Minimalis-Modern-Japandi-i.20077758.43084781344?extraParams=%7B%22display_model_id%22%3A371549591653%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa16_1.webp",
+      "images/sofa16_2.webp",
+      "images/sofa16_3.webp",
+      "images/sofa16_4.webp",
+      "images/sofa16_5.webp",
+      "images/sofa16_6.webp",
+      "images/sofa16_7.webp"
+    ],
+    desc: `Geja - Sofa Kobe 2 Seater Sudut Minimalis Modern Japandi
+
+          Material:
+          - Terbuat dari 100% asli kayu pinus high quality
+          - Kain anti cakar* (kucing dan anjing)
+          - Rangka kaki sofa menggunakan besi Grade A
+          - Busa royal foam premium
+          - Dilengkapi anti slip, dIl.
+
+          Bonus :
+          - 2 bantal sandaran minimalis
+          - 1 kantong pocket organizer
+          - Bebas pilih finishing kaki kayu (silakan chat admin)
+
+          Proses Perawatan:
+          - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+          - Segera lap menggunakan tisu atau kain kering jika terkena noda
+          - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+          - Buka cover bantal sandaran lalu jemur dan angin-anginkan
+
+          Produk yang Dikirim:
+          1 Buah Sofa + Puff Kotak + Bonus Bantal Sandaran + Puff Kotak + Pocket Organizer
+
+          Ukuran Sofa:
+          200 x 80 × 90 cm
+
+          Ukuran Puff Sofa:
+          70 x 80 cm
+
+          Estimasi Produk Pre Order 2-3 minggu.
+          (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+          Catatan:
+          WAJIB tanyakan stok atau variasi produk sebelum membeli.
+
+          Garansi:
+          1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+          Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk.
+
+          (Silakan pilih pengiriman menggunakan Kargo)
+          Silakan hubungi admin melalui fitur chat untuk mendapatkan informasi terkait gratis ongkir dan subsidi ongkir ke kotamu!
+          TRANSAKSI DI JAMIN AMAN. MAU DATANG LANGSUNG TOKO JUGA BISA WAJIB CHAT SEBELUM MEMBELI.`
+  },
+  {
+    id: "GEJA-024",
+    name: "Geja - Sofa Kobe Set 3-1-1 Seater Anti Cakar Minimalis Modern Japandi",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 11699000,
+    material: "Kayu Jati, Busa Royal Foam Premium, Kain High Durability",
+    color: "Black, Cream, Dark Blue, Dark Brown, Dark Grey, Grey, Iguana, Ivory, Teak",
+    size: "200 x 80 x 90 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Kobe-Set-3-1-1-Seater-Anti-Cakar-Minimalis-Modern-Japandi-i.20077758.51318434451?extraParams=%7B%22display_model_id%22%3A316550156856%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa17_1.webp",
+      "images/sofa17_2.webp",
+      "images/sofa17_3.webp",
+      "images/sofa17_4.webp",
+      "images/sofa17_5.webp",
+      "images/sofa17_6.webp",
+      "images/sofa17_7.webp"
+    ],
+    desc: `Geja - Sofa Kobe Set 3-1-1 Seater Anti Cakar Minimalis Modern Japandi
+
+          Yuk, bikin ruang tamu minimalis jadi makin aesthetic dengan Sofa Kobe dari Geja! Desainnya yang timeless bisa bikin hunianmu tampak elegan, berkualitas, dan nggak too much tentunya!
+
+          Bonus Spesial :
+          - Gratis Bantal Sandaran (dengan warna senada dengan sofa)
+          - Gratis Kantong Pocket Organizer
+          - Bebas request warna kaki sofa (tersedia 5 pilihan warna)
+
+          Proses Perawatan:
+          - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+          - Segera lap menggunakan tisu atau kain kering jika terkena noda
+          - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+          - Buka cover bantal sandaran lalu jemur dan angin-anginkan
+
+          Produk yang Dikirim:
+          - 1 Buah Sofa 3 Seater
+          - 2 Buah Sofa 1 Seater
+          - Bonus Bantal Sandaran
+          - Kantong Pocket Organizer
+
+          Material:
+          - Rangka kaki sofa asli 100% asli kayu jati
+          - Kain anti cakar* (kucing dan anjing)
+          - Busa royal foam premium
+          - Dilengkapi anti slip, dIl.
+
+          Ukuran Produk:
+          - Sofa 3 Seater : 200 x 80 x 90 cm
+          - Sofa 1 Seater: 85 x 80 x 90 cm
+
+          Cocok diletakkan di :
+          - Apartemen berukuran kecil
+          - Ruang keluarga
+          - Ruang tamu
+          - Ruang santai
+          - Rumah minimalis
+          - Rumah sempit
+
+          Garansi : 1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+          Estimasi Produk Pre Order 3-4 minggu.
+          (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+          Catatan:
+          WAJIB tanyakan stok atau variasi produk sebelum membeli.
+          Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk. Silahkan hubungi admin untuk mendapatkan informasi terkait gratis ongkir ke kotamu !
+          (Silakan pilih pengiriman menggunakan Kargo)`
+  },
+  {
+    id: "GEJA-025",
+    name: "Geja - Sofa Kobe 2 Seater Sudut Variasi Anti Cakar Minimalis Modern Japandi Premium",
+    cat: "Sofa",
+    brand: "Geja Furniture",
+    price: 7099000,
+    material: "Kayu Jati, Busa Royal Foam Premium, Kain High Durability",
+    color: "Black, Cream, Dark Blue, Dark Brown, Dark Grey, Grey, Iguana, Ivory, Teak",
+    size: "140 x 80 x 90 cm",
+    shopee: "https://shopee.co.id/Geja-Sofa-Kobe-2-Seater-Sudut-Variasi-Anti-Cakar-Minimalis-Modern-Japandi-Premium-i.20077758.49618460206?extraParams=%7B%22display_model_id%22%3A149379753796%2C%22model_selection_logic%22%3A3%7D",
+    images: [
+      "images/sofa18_1.webp",
+      "images/sofa18_2.webp",
+      "images/sofa18_3.webp",
+      "images/sofa18_4.webp",
+      "images/sofa18_5.webp",
+      "images/sofa18_6.webp",
+      "images/sofa18_7.webp"
+    ],
+    desc: `Geja - Sofa Kobe 2 Seater Sudut Variasi Anti Cakar Minimalis Modern
+
+          Yuk, bikin ruang tamu minimalis jadi makin aesthetic dengan Sofa Kobe dari Geja! Desainnya yang timeless bisa bikin hunianmu tampak elegan, berkualitas, dan nggak too much tentunya!
+
+          Bonus Spesial :
+          - Gratis 2 Bantal Sandaran (dengan warna senada dengan sofa)
+          - Gratis 1 Kantong Pocket Organizer
+          - Bebas request warna kaki sofa (tersedia 5 pilihan warna)
+
+          Proses Perawatan:
+          - Bersihkan debu / bulu kotoran hewan menggunakan vacuum cleaner
+          - Segera lap menggunakan tisu atau kain kering jika terkena noda
+          - Hindari menggosok kain terlalu keras agar serat kain tetap awet
+          - Buka cover bantal sandaran lalu jemur dan angin-anginkan
+
+          Produk yang Dikirim:
+          1 Buah Sofa + Puff Kotak + Bonus Bantal Sandaran + Kantong Pocket Organizer
+
+          Material:
+          - Rangka kaki sofa asli 100% asli kayu jati
+          - Kain anti cakar (kucing dan anjing)
+          - Busa royal foam premium
+          - Dilengkapi anti slip, dll.
+
+          Ukuran Sofa:
+          140 x 80 x 90 cm (Pas untuk ruang tamu mungil maupun besar)
+
+          Ukuran Putt:
+          100 x 70 cm
+
+          Cocok diletakkan di :
+          - Apartemen berukuran kecil
+          - Ruang keluarga
+          - Ruang tamu
+          - Ruang santai
+          - Rumah minimalis
+          - Rumah sempit
+
+          Garansi:
+          1 Tahun (Busa, Kerangka, Kena Rayap Diganti 100% Baru)
+
+          Estimasi Produk Pre Order 3-4 minggu.
+          (Apabila produksi lebih cepat, maka akan diinformasikan melalui chat oleh admin)
+
+          Catatan:
+          WAJIB tanyakan stok atau variasi produk sebelum membeli.
+          Dapatkan gratis ongkir ke wilayah Jawa untuk semua produk. Silahkan menghubungi admin untuk mendapatkan info gratis ongkir ke kotamu !
+          (Silakan pilih pengiriman menggunakan Kargo)`
   }
 ];
 
