@@ -410,6 +410,5 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea{font-family:"Quicksand",sans-
   @media(min-width:621px){.modal-box{height:min(80dvh,calc(100dvh - 60px));max-height:calc(100dvh - 60px)}}
 }
 
-.scroll-reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.2,1)}
-.scroll-reveal.is-visible{opacity:1;transform:translateY(0)}
-@media(prefers-reduced-motion:reduce){.scroll-reveal{opacity:1;transform:none;transition:none}}
+.scroll-reveal,.scroll-reveal.is-visible{opacity:1;transform:none;transition:none}
+@media(prefers-reduced-motion:reduce){.scroll-reveal,.scroll-reveal.is-visible{opacity:1;transform:none;transition:none}}

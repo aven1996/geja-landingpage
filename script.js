@@ -1608,18 +1608,24 @@ const scrollRevealObserver = !reduceMotion && "IntersectionObserver" in window
   : null;
 
 function observeScrollReveal(elements) {
-  if (!scrollRevealObserver) return;
+  if (!elements || !elements.length) return;
   elements.forEach(element => {
-    element.classList.add("scroll-reveal");
-    scrollRevealObserver.observe(element);
+    element.classList.remove("scroll-reveal");
+    element.classList.remove("is-visible");
   });
+}
+
+function getVisibleProducts(data) {
+  const isHomePage = !!document.getElementById("showAll");
+  return isHomePage ? data.slice(0, 16) : data;
 }
 
 function render() {
   const data = getFilteredProducts();
-  grid.innerHTML = data.map(productCard).join("");
+  const visibleProducts = getVisibleProducts(data);
+  grid.innerHTML = visibleProducts.map(productCard).join("");
   observeScrollReveal($$(".product", grid));
-  empty.hidden = data.length !== 0;
+  empty.hidden = visibleProducts.length !== 0;
   $$(".product", grid).forEach(card => {
     card.addEventListener("click", e => {
       if (e.target.closest(".quick-view")) return;
@@ -1852,6 +1858,13 @@ function setActiveNav(activeLink) {
 }
 function syncActiveNav() {
   const currentUrl = new URL(location.href);
+  const isCatalogPage = currentUrl.pathname.toLowerCase().endsWith("/katalog.html");
+
+  if (isCatalogPage) {
+    navLinks.forEach(link => link.classList.remove("nav-active"));
+    return;
+  }
+
   const activeLink = navLinks.find(link => {
     const linkUrl = new URL(link.href, location.href);
     return linkUrl.pathname === currentUrl.pathname && (
