@@ -1648,6 +1648,13 @@ function setFilter(value, shouldScroll=true) {
   if (shouldScroll) $("#produk").scrollIntoView({behavior:"smooth", block:"start"});
 }
 
+function syncCategoryVisibility() {
+  const availableCategories = new Set(products.map(product => product.cat));
+  $$('[data-filter]').forEach(button => {
+    button.hidden = button.dataset.filter !== "Semua" && !availableCategories.has(button.dataset.filter);
+  });
+}
+
 function openModal(id, updateUrl=true) {
   const p = products.find(item => item.id === id);
   if (!p) return;
@@ -1982,5 +1989,6 @@ $("#year").textContent = new Date().getFullYear();
 
 // Inisialisasi.
 observeScrollReveal($$("main > section:not(.hero)"));
+syncCategoryVisibility();
 render();
 handleHash();
